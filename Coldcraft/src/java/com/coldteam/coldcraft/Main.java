@@ -1,6 +1,5 @@
 package com.coldteam.coldcraft;
 
-//keep comment lines as comment until everything gets unfucked
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -19,24 +18,21 @@ public class Main {
     @Instance
     public static Main instance = new Main();
     
-    @SidedProxy(clientSide="com.coldteam.colcraft.ClientProxy", serverSide="com.coldteam.coldcraft.proxy.ServerProxy")
+    @SidedProxy(clientSide="com.coldteam.coldcraft.ClientProxy", serverSide="com.coldteam.coldcraft.ServerProxy")
     public static CommonProxy proxy;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) {
-    	System.out.println("Called method: Preinit");
-    	Main.proxy.preInit(e);
+    	proxy.preInit(e);
     }
 
     @EventHandler
     public void init(FMLInitializationEvent e) {
-    	System.out.println("Called method: init");
-    	Main.proxy.init(e);
+    	proxy.init(e);
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent e) {
-    	System.out.println("Called method: Postinit");
-    	Main.proxy.postInit(e);
+    	proxy.postInit(e);
     }
 }
