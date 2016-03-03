@@ -1,6 +1,6 @@
-package com.fawtytwo.coldcraft;
+package com.coldteam.coldcraft;
 
-import com.fawtytwo.coldcraft.proxy.CommonProxy;
+import com.coldteam.coldcraft.proxy.CommonProxy;
 
 //keep comment lines as comment until everything gets unfucked
 import net.minecraftforge.fml.common.Mod;
