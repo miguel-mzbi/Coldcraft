@@ -1,4 +1,4 @@
-package com.coldteam.coldcraft.proxy;
+package com.coldteam.coldcraft;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

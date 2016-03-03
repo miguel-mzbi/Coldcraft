@@ -1,7 +1,5 @@
 package com.coldteam.coldcraft;
 
-import com.coldteam.coldcraft.proxy.CommonProxy;
-
 //keep comment lines as comment until everything gets unfucked
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,7 +19,7 @@ public class Main {
     @Instance
     public static Main instance = new Main();
     
-    @SidedProxy(clientSide="com.fawtytwo.coldcraft.proxy.ClientProxy", serverSide="com.fawtytwo.coldcraft.proxy.CommonProxy")
+    @SidedProxy(clientSide="com.coldteam.colcraft.ClientProxy", serverSide="com.coldteam.coldcraft.proxy.ServerProxy")
     public static CommonProxy proxy;
 
     @EventHandler

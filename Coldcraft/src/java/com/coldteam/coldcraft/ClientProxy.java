@@ -1,11 +1,12 @@
-package com.coldteam.coldcraft.proxy;
+package com.coldteam.coldcraft;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class ClientProxy extends CommonProxy {
-	@Override
+
+    @Override
     public void preInit(FMLPreInitializationEvent e) {
         super.preInit(e);
     }
@@ -19,4 +20,5 @@ public class ClientProxy extends CommonProxy {
     public void postInit(FMLPostInitializationEvent e) {
         super.postInit(e);
     }
+
 }
