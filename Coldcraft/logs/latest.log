@@ -1,41 +1,40 @@
-[11:04:08] [main/INFO]: Logging in with username & password
-[11:04:13] [Client thread/INFO]: Setting user: osoazul1_1
-[11:04:17] [Client thread/INFO]: LWJGL Version: 2.9.4
-[11:04:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Example Mod
-[11:04:21] [Client thread/ERROR]: Couldn't initialize twitch stream
-[11:04:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:04:22] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[11:04:22] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:04:22] [Thread-8/INFO]: OpenAL initialized.
-[11:04:22] [Sound Library Loader/INFO]: Sound engine started
-[11:04:25] [Client thread/INFO]: Created: 16x16 textures-atlas
-[11:04:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Example Mod
-[11:04:27] [Client thread/INFO]: SoundSystem shutting down...
-[11:04:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[11:04:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:04:27] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[11:04:27] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:04:27] [Thread-10/INFO]: OpenAL initialized.
-[11:04:28] [Sound Library Loader/INFO]: Sound engine started
-[11:04:29] [Client thread/INFO]: Created: 512x512 textures-atlas
-[11:04:37] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[11:04:37] [Server thread/INFO]: Generating keypair
-[11:04:43] [Server thread/INFO]: Preparing start region for level 0
-[11:04:44] [Server thread/INFO]: Preparing spawn area: 78%
-[11:04:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:04:45] [Server thread/INFO]: osoazul1_1[local:E:51646cd1] logged in with entity id 284 at (-212.81311441235445, 71.53494709865075, 220.43289258860023)
-[11:04:45] [Server thread/INFO]: osoazul1_1 joined the game
-[11:04:46] [Server thread/WARN]: Biome ID is out of bounds: 151720, defaulting to 0 (Ocean)
-[11:05:12] [Server thread/INFO]: Saving and pausing game...
-[11:05:12] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:05:12] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:05:12] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:05:15] [Server thread/INFO]: Stopping server
-[11:05:15] [Server thread/INFO]: Saving players
-[11:05:15] [Server thread/INFO]: Saving worlds
-[11:05:15] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:05:15] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:05:15] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:05:17] [Client thread/INFO]: Stopping!
-[11:05:17] [Client thread/INFO]: SoundSystem shutting down...
-[11:05:17] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:40:13] [main/INFO]: Logging in with username & password
+[12:40:16] [Client thread/INFO]: Setting user: osoazul1_1
+[12:40:21] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:40:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Example Mod
+[12:40:25] [Client thread/ERROR]: Couldn't initialize twitch stream
+[12:40:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:40:26] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[12:40:26] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:40:26] [Thread-8/INFO]: OpenAL initialized.
+[12:40:26] [Sound Library Loader/INFO]: Sound engine started
+[12:40:29] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:40:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Example Mod
+[12:40:31] [Client thread/INFO]: SoundSystem shutting down...
+[12:40:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:40:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:40:31] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[12:40:31] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:40:31] [Thread-10/INFO]: OpenAL initialized.
+[12:40:31] [Sound Library Loader/INFO]: Sound engine started
+[12:40:33] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:40:44] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[12:40:44] [Server thread/INFO]: Generating keypair
+[12:40:44] [Server thread/INFO]: Preparing start region for level 0
+[12:40:45] [Server thread/INFO]: Preparing spawn area: 55%
+[12:40:46] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:40:48] [Server thread/INFO]: osoazul1_1[local:E:149a7366] logged in with entity id 150 at (180.5, 64.0, 242.5)
+[12:40:48] [Server thread/INFO]: osoazul1_1 joined the game
+[12:40:54] [Server thread/INFO]: Saving and pausing game...
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:40:54] [Server thread/INFO]: Stopping server
+[12:40:54] [Server thread/INFO]: Saving players
+[12:40:54] [Server thread/INFO]: Saving worlds
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:40:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:40:56] [Client thread/INFO]: Stopping!
+[12:40:56] [Client thread/INFO]: SoundSystem shutting down...
+[12:40:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
