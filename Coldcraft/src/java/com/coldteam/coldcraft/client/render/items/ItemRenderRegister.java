@@ -9,14 +9,15 @@ import net.minecraft.item.Item;
 
 public final class ItemRenderRegister {
 
-    public static void registerItemRenderer() {
-    	reg(ModItems.testItem);
-    }
-    
-    public static String modid = Main.MODID;
+	public static void registerItemRenderer() {
+		reg(ModItems.tutorialItem);
+	}
 
-    public static void reg(Item item) {
-    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(modid + ":" + item.getUnlocalizedName().substring(5), "inventory"));
-    }
-    
+	//==========================================================================
+
+	public static String modid = Main.MODID;
+
+	public static void reg(Item item) {
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(modid + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+	}
 }

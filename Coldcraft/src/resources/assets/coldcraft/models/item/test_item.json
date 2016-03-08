@@ -1,6 +1,0 @@
-{
-    "parent":"coldcraft:item/standard_item",
-    "textures": {
-        "layer0":"coldcraft:items/test_item"
-    },
-}
