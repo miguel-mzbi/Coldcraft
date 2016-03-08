@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
 public final class ItemRenderRegister {
 
 	public static void registerItemRenderer() {
-		reg(ModItems.tutorialItem);
+		reg(ModItems.testItem);
 	}
 
 	//==========================================================================

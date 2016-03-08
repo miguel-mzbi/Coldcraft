@@ -5,10 +5,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModItems {
 
-	public static Item tutorialItem;
+	public static Item testItem;
 
 	public static void createItems() {
-		GameRegistry.registerItem(tutorialItem = new BasicItem("tutorial_item"), "tutorial_item");
+		GameRegistry.registerItem(testItem = new BasicItem("test_item"), "test_item");
 	}
 
 }
