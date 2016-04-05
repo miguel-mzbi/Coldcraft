@@ -1,24 +1,31 @@
 package com.coldteam.coldcraft.blocks;
 
-import net.minecraft.block.Block;
+import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
-public class BasicBlock extends Block {
+import com.coldteam.coldcraft.tileentity.ModTileEntity;
 
-    public BasicBlock(String unlocalizedName, Material material, float hardness, float resistance) {
+
+public class BasicBlock extends BlockContainer {
+
+    public BasicBlock(String name, Material material, float hardness, float resistance) {
         super(material);
-        this.setUnlocalizedName(unlocalizedName);
         this.setCreativeTab(CreativeTabs.tabBlock);
+        this.setUnlocalizedName(name);
         this.setHardness(hardness);
         this.setResistance(resistance);
-    }
+        }
+    
+    @Override
+	public TileEntity createNewTileEntity(World worldIn, int meta) {
+		return new ModTileEntity();
+	}
 
-    public BasicBlock(String unlocalizedName, float hardness, float resistance) {
-        this(unlocalizedName, Material.rock, hardness, resistance);
-    }
-
-    public BasicBlock(String unlocalizedName) {
-        this(unlocalizedName, 2.0f, 10.0f);
-    }
+	@Override
+	public int getRenderType() {
+		return 3;
+	}
 }
