@@ -1,6 +1,7 @@
 package com.coldteam.coldcraft;
 
 import com.coldteam.coldcraft.blocks.ModBlocks;
+import com.coldteam.coldcraft.crafting.ModCrafting;
 import com.coldteam.coldcraft.tileentity.ModTileEntities;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,6 +15,7 @@ public class CommonProxy {
 	    ModTileEntities.init();
 	}
 	public void init(FMLInitializationEvent e){
+	    ModCrafting.initCrafting();
 		
 	}
 	public void postInit(FMLPostInitializationEvent e){
