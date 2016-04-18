@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 4/7/16 12:47 PM
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at com.coldteam.coldcraft.entitydata.PlayerData.get(PlayerData.java:28)
+	at com.coldteam.coldcraft.tileentity.ModTileEntity.update(ModTileEntity.java:30)
+	at net.minecraft.world.World.updateEntities(World.java:1860)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:560)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.coldteam.coldcraft.entitydata.PlayerData.get(PlayerData.java:28)
+	at com.coldteam.coldcraft.tileentity.ModTileEntity.update(ModTileEntity.java:30)
+
+-- Block entity being ticked --
+Details:
+	Name: test_block // com.coldteam.coldcraft.tileentity.ModTileEntity
+	Block type: ID #198 (tile.test_block // com.coldteam.coldcraft.blocks.BasicBlock)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-56,74,243), Chunk: (at 8,4,3 in -4,15; contains blocks -64,0,240 to -49,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Actual block type: ID #198 (tile.test_block // com.coldteam.coldcraft.blocks.BasicBlock)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1860)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:560)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['osoazul1_1'/676, l='New World', x=-55.50, y=74.00, z=242.50]]
+	Chunk stats: ServerChunkCache: 651 Drop: 0
+	Level seed: -6746738457631759027
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: -48.00,64.00,248.00 - World: (-48,64,248), Chunk: (at 0,4,8 in -3,15; contains blocks -48,0,240 to -33,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 86 game time, 86 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 46277 (now: false), thunder time: 49964 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 4.2.0-35-generic
+	Java Version: 1.8.0_77, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 410241336 bytes (391 MB) / 764936192 bytes (729 MB) up to 1791492096 bytes (1708 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.19 Powered by Forge 11.15.1.1764 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1764.jar) 
+	UCHIJAAAA	Forge{11.15.1.1764} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1764.jar) 
+	UCHIJAAAA	coldcraft{0.1.0} [Coldcraft Survival Mod] (bin) 
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['osoazul1_1'/676, l='New World', x=-55.50, y=74.00, z=242.50]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

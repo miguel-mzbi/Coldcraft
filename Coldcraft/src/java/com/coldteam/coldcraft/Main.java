@@ -1,5 +1,6 @@
 package com.coldteam.coldcraft;
 
+import minersbasic.api.network.PacketHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -20,6 +21,8 @@ public class Main {
     
     @SidedProxy(clientSide="com.coldteam.coldcraft.ClientProxy", serverSide="com.coldteam.coldcraft.ServerProxy")
     public static CommonProxy proxy;
+    
+    public static PacketHandler packetHandler;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) {

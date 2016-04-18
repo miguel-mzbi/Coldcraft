@@ -11,11 +11,5 @@ public final class ModBlocks {
     public static void createBlocks() {
         GameRegistry.registerBlock(testBlock = new BasicBlock("test_block", Material.ground, 1.0F, 10F).setLightLevel(1.0f), "test_block");
     
-    
-	/*public static Block modBlockTileEntity;
-
-	public static final void createBlocks() {
-		GameRegistry.registerBlock(modBlockTileEntity = new ModBlockTileEntity("tile_entity"), "tile_entity");
-	*/
 	}
 }

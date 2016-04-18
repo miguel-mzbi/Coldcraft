@@ -1,12 +1,12 @@
 package com.coldteam.coldcraft.blocks;
 
+import com.coldteam.coldcraft.tileentity.ModTileEntity;
+
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-
-import com.coldteam.coldcraft.tileentity.ModTileEntity;
 
 
 public class BasicBlock extends BlockContainer {

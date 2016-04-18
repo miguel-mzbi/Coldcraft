@@ -1,6 +1,7 @@
 package com.coldteam.coldcraft;
 
 import com.coldteam.coldcraft.client.render.blocks.BlockRenderRegister;
+import com.coldteam.coldcraft.client.render.items.ItemRenderRegister;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,8 +17,8 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void init(FMLInitializationEvent e) {
     	super.init(e);
-    	
         BlockRenderRegister.registerBlockRenderer();
+        ItemRenderRegister.registerItemRenderer();
     }
 
     @Override

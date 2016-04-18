@@ -4,7 +4,12 @@
 	<classpathentry kind="src" path="src/resources"/>
 	<classpathentry excluding="java/|resources/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Forge"/>
-	<classpathentry kind="lib" path="/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1763/stable/20/forgeSrc-1.8.9-11.15.1.1763.jar" sourcepath="/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1763/stable/20/forgeSrc-1.8.9-11.15.1.1763-sources.jar"/>
+	<classpathentry kind="lib" path="/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar" sourcepath="/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/fd8e5b2341f3a08b02fe116d6e9886654e65b219/netty-all-4.0.23.Final-sources.jar"/>
+	<classpathentry kind="lib" path="/home/miguel/MineMods/Miner&apos;s Basic/Minersbasic-1.0-b.327-mc1.8-deobf.jar" sourcepath="/home/miguel/MineMods/Miner&apos;s Basic/Minersbasic-1.0-b.327-mc1.8-source.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/miguel/MineMods/Miner&apos;s%20Basic/Minersbasic-1.0-b.327-mc1.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/Forge1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
