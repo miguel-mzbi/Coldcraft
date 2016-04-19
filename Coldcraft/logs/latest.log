@@ -1,70 +1,130 @@
-[09:08:32] [main/INFO]: Logging in with username & password
-[09:08:37] [Client thread/INFO]: Setting user: osoazul1_1
-[09:08:40] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:08:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[09:08:44] [Client thread/ERROR]: Couldn't initialize twitch stream
-[09:08:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:08:45] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[09:08:45] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:08:45] [Thread-8/INFO]: OpenAL initialized.
-[09:08:45] [Sound Library Loader/INFO]: Sound engine started
-[09:08:47] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:08:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[09:08:48] [Client thread/INFO]: SoundSystem shutting down...
-[09:08:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[09:08:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:08:48] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[09:08:48] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:08:48] [Thread-10/INFO]: OpenAL initialized.
-[09:08:49] [Sound Library Loader/INFO]: Sound engine started
-[09:08:49] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:08:56] [Client thread/INFO]: Deleting level New World-
-[09:08:56] [Client thread/INFO]: Attempt 1...
-[09:09:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[09:09:01] [Server thread/INFO]: Generating keypair
-[09:09:01] [Server thread/INFO]: Converting map!
-[09:09:01] [Server thread/INFO]: Scanning folders...
-[09:09:01] [Server thread/INFO]: Total conversion count is 0
-[09:09:02] [Server thread/INFO]: Preparing start region for level 0
-[09:09:03] [Server thread/INFO]: Preparing spawn area: 4%
-[09:09:04] [Server thread/INFO]: Preparing spawn area: 9%
-[09:09:05] [Server thread/INFO]: Preparing spawn area: 21%
-[09:09:06] [Server thread/INFO]: Preparing spawn area: 32%
-[09:09:07] [Server thread/INFO]: Preparing spawn area: 43%
-[09:09:08] [Server thread/INFO]: Preparing spawn area: 56%
-[09:09:09] [Server thread/INFO]: Preparing spawn area: 66%
-[09:09:10] [Server thread/INFO]: Preparing spawn area: 71%
-[09:09:11] [Server thread/INFO]: Preparing spawn area: 83%
-[09:09:12] [Server thread/INFO]: Preparing spawn area: 96%
-[09:09:13] [Server thread/INFO]: Changing view distance to 12, from 10
-[09:09:13] [Server thread/INFO]: osoazul1_1[local:E:53174b22] logged in with entity id 251 at (-125.5, 75.0, 223.5)
-[09:09:13] [Server thread/INFO]: osoazul1_1 joined the game
-[09:09:20] [Server thread/INFO]: osoazul1_1 has just earned the achievement [Taking Inventory]
-[09:09:20] [Client thread/INFO]: [CHAT] osoazul1_1 has just earned the achievement [Taking Inventory]
-[09:09:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5582ms behind, skipping 111 tick(s)
-[09:09:28] [Client thread/INFO]: [CHAT] Temperature: 100
-[09:09:29] [Client thread/INFO]: [CHAT] Temperature: 100
-[09:09:29] [Client thread/INFO]: [CHAT] Temperature: 100
-[09:09:29] [Client thread/INFO]: [CHAT] Temperature: 100
-[09:09:29] [Server thread/INFO]: Saving and pausing game...
-[09:09:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[09:09:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[09:09:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[09:09:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2251ms behind, skipping 45 tick(s)
-[09:09:39] [Server thread/INFO]: Saving and pausing game...
-[09:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[09:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[09:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[09:09:41] [Client thread/INFO]: Stopping!
-[09:09:41] [Client thread/INFO]: SoundSystem shutting down...
-[09:09:41] [Server thread/INFO]: Stopping server
-[09:09:41] [Server thread/INFO]: Saving players
-[09:09:41] [Server thread/INFO]: Saving worlds
-[09:09:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[09:09:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[09:09:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[09:09:41] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[09:09:41] [Client Shutdown Thread/INFO]: Stopping server
-[09:09:41] [Client Shutdown Thread/INFO]: Saving players
-[09:09:41] [Client Shutdown Thread/INFO]: Saving worlds
-[09:09:41] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:12:18] [main/INFO]: Logging in with username & password
+[08:12:21] [Client thread/INFO]: Setting user: osoazul1_1
+[08:12:25] [Client thread/INFO]: LWJGL Version: 2.9.1
+[08:12:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[08:12:29] [Client thread/ERROR]: Couldn't initialize twitch stream
+[08:12:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[08:12:30] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[08:12:30] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[08:12:30] [Thread-8/INFO]: OpenAL initialized.
+[08:12:30] [Sound Library Loader/INFO]: Sound engine started
+[08:12:32] [Client thread/INFO]: Created: 512x512 textures-atlas
+[08:12:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[08:12:33] [Client thread/INFO]: SoundSystem shutting down...
+[08:12:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[08:12:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[08:12:33] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[08:12:33] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[08:12:33] [Thread-10/INFO]: OpenAL initialized.
+[08:12:34] [Sound Library Loader/INFO]: Sound engine started
+[08:12:34] [Client thread/INFO]: Created: 512x512 textures-atlas
+[08:12:40] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[08:12:40] [Server thread/INFO]: Generating keypair
+[08:12:40] [Server thread/INFO]: Preparing start region for level 0
+[08:12:41] [Server thread/INFO]: Preparing spawn area: 50%
+[08:12:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:12:43] [Server thread/INFO]: osoazul1_1[local:E:6a8bc39f] logged in with entity id 290 at (-126.90276483918535, 76.0, 203.8659560459627)
+[08:12:43] [Server thread/INFO]: osoazul1_1 joined the game
+[08:12:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2571ms behind, skipping 51 tick(s)
+[08:12:49] [Client thread/INFO]: [CHAT] Temperature: 102.09999999999988
+[08:12:49] [Client thread/INFO]: [CHAT] Temperature: 102.24999999999987
+[08:12:50] [Client thread/INFO]: [CHAT] Temperature: 102.54999999999986
+[08:12:50] [Client thread/INFO]: [CHAT] Temperature: 102.74999999999984
+[08:12:51] [Client thread/INFO]: [CHAT] Temperature: 102.89999999999984
+[08:12:51] [Client thread/INFO]: [CHAT] Temperature: 103.14999999999982
+[08:12:52] [Client thread/INFO]: [CHAT] Temperature: 103.24999999999982
+[08:12:52] [Client thread/INFO]: [CHAT] Temperature: 103.3999999999998
+[08:12:52] [Client thread/INFO]: [CHAT] Temperature: 103.5499999999998
+[08:12:53] [Client thread/INFO]: [CHAT] Temperature: 103.79999999999978
+[08:12:53] [Client thread/INFO]: [CHAT] Temperature: 103.94999999999978
+[08:12:53] [Client thread/INFO]: [CHAT] Temperature: 104.04999999999977
+[08:12:53] [Client thread/INFO]: [CHAT] Temperature: 104.19999999999976
+[08:12:53] [Client thread/INFO]: [CHAT] Temperature: 104.39999999999975
+[08:12:54] [Client thread/INFO]: [CHAT] Temperature: 104.54999999999974
+[08:12:54] [Client thread/INFO]: [CHAT] Temperature: 104.64999999999974
+[08:12:54] [Client thread/INFO]: [CHAT] Temperature: 104.79999999999973
+[08:12:54] [Client thread/INFO]: [CHAT] Temperature: 104.99999999999972
+[08:12:54] [Client thread/INFO]: [CHAT] Temperature: 105.04999999999971
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.2999999999997
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.3499999999997
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.49999999999969
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.74999999999967
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.84999999999967
+[08:12:55] [Client thread/INFO]: [CHAT] Temperature: 105.94999999999966
+[08:12:56] [Client thread/INFO]: [CHAT] Temperature: 106.09999999999965
+[08:12:56] [Client thread/INFO]: [CHAT] Temperature: 106.19999999999965
+[08:12:56] [Client thread/INFO]: [CHAT] Temperature: 106.29999999999964
+[08:12:56] [Client thread/INFO]: [CHAT] Temperature: 106.44999999999963
+[08:12:56] [Client thread/INFO]: [CHAT] Temperature: 106.59999999999962
+[08:12:57] [Client thread/INFO]: [CHAT] Temperature: 106.74999999999962
+[08:12:57] [Client thread/INFO]: [CHAT] Temperature: 106.89999999999961
+[08:12:57] [Client thread/INFO]: [CHAT] Temperature: 106.9999999999996
+[08:12:57] [Client thread/INFO]: [CHAT] Temperature: 107.19999999999959
+[08:12:57] [Client thread/INFO]: [CHAT] Temperature: 107.34999999999958
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 107.49999999999957
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 107.69999999999956
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 107.84999999999955
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 108.09999999999954
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 108.24999999999953
+[08:12:58] [Client thread/INFO]: [CHAT] Temperature: 108.39999999999952
+[08:12:59] [Client thread/INFO]: [CHAT] Temperature: 108.54999999999951
+[08:12:59] [Client thread/INFO]: [CHAT] Temperature: 108.64999999999951
+[08:12:59] [Client thread/INFO]: [CHAT] Temperature: 108.8499999999995
+[08:12:59] [Client thread/INFO]: [CHAT] Temperature: 108.99999999999949
+[08:12:59] [Client thread/INFO]: [CHAT] Temperature: 109.24999999999947
+[08:13:00] [Client thread/INFO]: [CHAT] Temperature: 109.44999999999946
+[08:13:00] [Client thread/INFO]: [CHAT] Temperature: 109.49999999999946
+[08:13:00] [Client thread/INFO]: [CHAT] Temperature: 109.69999999999945
+[08:13:00] [Client thread/INFO]: [CHAT] Temperature: 109.89999999999944
+[08:13:00] [Client thread/INFO]: [CHAT] Temperature: 110.14999999999942
+[08:13:01] [Client thread/INFO]: [CHAT] Temperature: 110.29999999999941
+[08:13:01] [Client thread/INFO]: [CHAT] Temperature: 110.5499999999994
+[08:13:02] [Client thread/INFO]: [CHAT] Temperature: 111.59999999999934
+[08:13:02] [Client thread/INFO]: [CHAT] Temperature: 112.1999999999993
+[08:13:03] [Client thread/INFO]: [CHAT] Temperature: 112.89999999999927
+[08:13:03] [Client thread/INFO]: [CHAT] Temperature: 113.14999999999925
+[08:13:03] [Client thread/INFO]: [CHAT] Temperature: 113.39999999999924
+[08:13:03] [Client thread/INFO]: [CHAT] Temperature: 113.59999999999923
+[08:13:04] [Client thread/INFO]: [CHAT] Temperature: 113.79999999999922
+[08:13:04] [Client thread/INFO]: [CHAT] Temperature: 113.9999999999992
+[08:13:04] [Client thread/INFO]: [CHAT] Temperature: 114.0999999999992
+[08:13:04] [Client thread/INFO]: [CHAT] Temperature: 114.44999999999918
+[08:13:04] [Client thread/INFO]: [CHAT] Temperature: 114.69999999999916
+[08:13:05] [Client thread/INFO]: [CHAT] Temperature: 114.94999999999915
+[08:13:05] [Client thread/INFO]: [CHAT] Temperature: 115.09999999999914
+[08:13:05] [Client thread/INFO]: [CHAT] Temperature: 115.29999999999913
+[08:13:05] [Client thread/INFO]: [CHAT] Temperature: 115.54999999999912
+[08:13:05] [Client thread/INFO]: [CHAT] Temperature: 115.69999999999911
+[08:13:06] [Client thread/INFO]: [CHAT] Temperature: 115.9499999999991
+[08:13:06] [Client thread/INFO]: [CHAT] Temperature: 115.9499999999991
+[08:13:06] [Client thread/INFO]: [CHAT] Temperature: 116.24999999999908
+[08:13:06] [Client thread/INFO]: [CHAT] Temperature: 116.39999999999907
+[08:13:06] [Client thread/INFO]: [CHAT] Temperature: 116.64999999999905
+[08:13:07] [Client thread/INFO]: [CHAT] Temperature: 116.89999999999904
+[08:13:07] [Client thread/INFO]: [CHAT] Temperature: 117.09999999999903
+[08:13:07] [Client thread/INFO]: [CHAT] Temperature: 117.29999999999902
+[08:13:07] [Client thread/INFO]: [CHAT] Temperature: 117.39999999999901
+[08:13:07] [Client thread/INFO]: [CHAT] Temperature: 117.599999999999
+[08:13:08] [Client thread/INFO]: [CHAT] Temperature: 117.79999999999899
+[08:13:08] [Client thread/INFO]: [CHAT] Temperature: 117.94999999999898
+[08:13:08] [Client thread/INFO]: [CHAT] Temperature: 118.09999999999897
+[08:13:08] [Client thread/INFO]: [CHAT] Temperature: 118.29999999999896
+[08:13:09] [Client thread/INFO]: [CHAT] Temperature: 118.49999999999895
+[08:13:09] [Server thread/INFO]: Saving and pausing game...
+[08:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:13:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:13:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5112ms behind, skipping 102 tick(s)
+[08:13:12] [Client thread/INFO]: Stopping!
+[08:13:12] [Client thread/INFO]: SoundSystem shutting down...
+[08:13:12] [Server thread/INFO]: Stopping server
+[08:13:12] [Server thread/INFO]: Saving players
+[08:13:12] [Server thread/INFO]: Saving worlds
+[08:13:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:13:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:13:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:13:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[08:13:12] [Client Shutdown Thread/INFO]: Stopping server
+[08:13:12] [Client Shutdown Thread/INFO]: Saving players
+[08:13:12] [Client Shutdown Thread/INFO]: Saving worlds
+[08:13:12] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

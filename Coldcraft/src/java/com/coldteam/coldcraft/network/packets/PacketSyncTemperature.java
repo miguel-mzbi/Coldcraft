@@ -12,26 +12,27 @@ import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 
 public class PacketSyncTemperature implements IMessage {
 
-    private int temperature;
+    private double temperature;
     private int entityID;
 
     public PacketSyncTemperature() {}
 
-    public PacketSyncTemperature(EntityPlayer entity, int temperature) {
+    public PacketSyncTemperature(EntityPlayer entity, double temperature) {
         this.entityID = entity.getEntityId();
         this.temperature = temperature;
+
     }
 
     @Override
     public void fromBytes(ByteBuf buf) {
         this.entityID = buf.readInt();
-        this.temperature = buf.readInt();
+        this.temperature = buf.readDouble();
     }
 
     @Override
     public void toBytes(ByteBuf buf) {
         buf.writeInt(this.entityID);
-        buf.writeInt(this.temperature);
+        buf.writeDouble(this.temperature);
     }
 
     // ========================================================================
@@ -45,6 +46,7 @@ public class PacketSyncTemperature implements IMessage {
 				@Override
                 public void run() {
                     Entity thePlayer = player.worldObj.getEntityByID(msg.entityID);
+                    System.out.println(thePlayer);
                     if (thePlayer != null && thePlayer instanceof EntityPlayer)
                         PlayerData.get((EntityPlayer) thePlayer).setTemperature(msg.temperature);
             	}

@@ -8,11 +8,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.server.gui.IUpdatePlayerListBox;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IExtendedEntityProperties;
 
-public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListBox{
+public class PlayerData implements IExtendedEntityProperties{
 
 	private static final String identifier = "coldcraftPlayerData";
 
@@ -20,7 +19,7 @@ public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListB
 
 	private final EntityPlayer player;
 	boolean active;
-	private int temperature;
+	private double temperature;
 
 	// CONSTRUCTOR, GETTER, REGISTER ==========================================
 
@@ -45,7 +44,7 @@ public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListB
 
 	@Override
 	public void saveNBTData(NBTTagCompound nbt) {
-		nbt.setInteger("temperature", this.getTemperature());
+		nbt.setDouble("temperature", this.getTemperature());
 		nbt.setBoolean("active", this.active);
 	}
 
@@ -57,7 +56,7 @@ public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListB
 	@Override
 	public void loadNBTData(NBTTagCompound nbt) {
 		if (nbt.hasKey("temeprature", 3))
-			this.setTemperature(nbt.getInteger("temperature"));
+			this.setTemperature(nbt.getDouble("temperature"));
         this.active = nbt.getBoolean("active");
 
 	}
@@ -68,8 +67,8 @@ public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListB
 
 	// GETTER, SETTER, SYNCER =================================================
 
-	public void setTemperature(int temperature) {
-		this.temperature = temperature;
+	public void setTemperature(double d) {
+		this.temperature = d;
 		this.syncTemperature();
 	}
 	
@@ -78,14 +77,7 @@ public class PlayerData implements IExtendedEntityProperties, IUpdatePlayerListB
 		this.syncTemperature();
 	}
 	
-	public void update(){
-		if(this.active){
-			this.temperature = temperature +1;
-			this.syncTemperature();
-		}
-	}
-	
-	public int getTemperature() {
+	public double getTemperature() {
 		return this.temperature;
 	}
 
