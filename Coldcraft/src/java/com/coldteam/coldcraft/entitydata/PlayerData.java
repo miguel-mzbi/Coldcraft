@@ -70,7 +70,7 @@ public class PlayerData implements IExtendedEntityProperties{
 	}
 	
 	public void campTemperature() {
-		this.temperature += 0.005;
+		this.temperature += 0.001;
 		this.syncTemperature();
 	}
 	
