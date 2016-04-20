@@ -46,7 +46,6 @@ public class PacketSyncTemperature implements IMessage {
 				@Override
                 public void run() {
                     Entity thePlayer = player.worldObj.getEntityByID(msg.entityID);
-                    System.out.println(thePlayer);
                     if (thePlayer != null && thePlayer instanceof EntityPlayer)
                         PlayerData.get((EntityPlayer) thePlayer).setTemperature(msg.temperature);
             	}

@@ -18,7 +18,6 @@ public class PlayerData implements IExtendedEntityProperties{
 	// PROPERTIES =============================================================
 
 	private final EntityPlayer player;
-	boolean active;
 	private double temperature;
 
 	// CONSTRUCTOR, GETTER, REGISTER ==========================================
@@ -45,7 +44,6 @@ public class PlayerData implements IExtendedEntityProperties{
 	@Override
 	public void saveNBTData(NBTTagCompound nbt) {
 		nbt.setDouble("temperature", this.getTemperature());
-		nbt.setBoolean("active", this.active);
 	}
 
 	public void saveReviveRelevantNBTData(NBTTagCompound nbt, boolean wasDeath) {
@@ -57,7 +55,6 @@ public class PlayerData implements IExtendedEntityProperties{
 	public void loadNBTData(NBTTagCompound nbt) {
 		if (nbt.hasKey("temeprature", 3))
 			this.setTemperature(nbt.getDouble("temperature"));
-        this.active = nbt.getBoolean("active");
 
 	}
 
@@ -72,8 +69,8 @@ public class PlayerData implements IExtendedEntityProperties{
 		this.syncTemperature();
 	}
 	
-	public void setActive(boolean active) {
-		this.active = active;
+	public void campTemperature() {
+		this.temperature += 0.005;
 		this.syncTemperature();
 	}
 	

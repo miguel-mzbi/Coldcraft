@@ -23,8 +23,7 @@ public class ModTileEntity extends TileEntity implements IUpdatePlayerListBox{
 		List<?> w = worldObj.getEntitiesWithinAABB(EntityPlayer.class, aabb);
 		
 		if (w.size() != 0){
-			System.out.println(w.get(0));
-			PlayerData.get((EntityPlayer) w.get(0)).setTemperature(PlayerData.get((EntityPlayer) w.get(0)).getTemperature() + 0.05);
+			PlayerData.get((EntityPlayer) w.get(0)).campTemperature();
 
 		}
 		
