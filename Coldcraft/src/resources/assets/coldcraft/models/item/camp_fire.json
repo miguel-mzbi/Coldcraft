@@ -1,5 +1,5 @@
 {
-    "parent":"coldcraft:block/test_block",
+    "parent":"coldcraft:block/camp_fire",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

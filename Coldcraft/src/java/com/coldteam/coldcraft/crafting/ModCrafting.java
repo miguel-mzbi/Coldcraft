@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrafting {
 	public static void initCrafting(){
-		GameRegistry.addRecipe(new ItemStack(ModBlocks.campFire), "IFI", "###", '#', Blocks.cobblestone, 'I', Items.stick, 'F', Items.flint_and_steel);
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.campFire), "IFI", "###", 
+				'#', Blocks.cobblestone, 'I', Items.stick, 'F', Items.flint_and_steel);
 	}
 }

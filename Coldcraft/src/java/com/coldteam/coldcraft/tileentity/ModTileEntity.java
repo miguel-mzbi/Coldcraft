@@ -10,7 +10,6 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 
 public class ModTileEntity extends TileEntity implements IUpdatePlayerListBox{
-	
 
 	@Override
 	public void update(){

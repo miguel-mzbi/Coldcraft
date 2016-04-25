@@ -48,7 +48,7 @@ public class PlayerData implements IExtendedEntityProperties{
 		return this.player instanceof EntityPlayerMP;
 	}
 
-	// LOAD, SAVE =============================================================
+	// LOAD, SAVE Currently not working properly
 
 	@Override
 	public void saveNBTData(NBTTagCompound nbt) {
@@ -82,7 +82,8 @@ public class PlayerData implements IExtendedEntityProperties{
 			this.wasCampCalled = true;
 		}
 	}
-		
+	
+	//Biome Effect
 	public void biomeTemperature(){
 		float biomeTemp = this.player.worldObj.getBiomeGenForCoords(this.pos).getFloatTemperature(this.pos);
 		double objectiveTemp, rate;
@@ -107,6 +108,7 @@ public class PlayerData implements IExtendedEntityProperties{
 		this.tickChange += (objectiveTemp - this.temperature)/rate;
 	}
 	
+	//Loop
 	public void doStuff(){
 		this.tickChange = 0;
 		if(!this.wasCampCalled && this.onCampTemp > 0.0){
@@ -145,4 +147,12 @@ public class PlayerData implements IExtendedEntityProperties{
 	}
 	
 }
+
+
+
+
+
+
+
+
 

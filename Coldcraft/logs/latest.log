@@ -1,44 +1,57 @@
-[11:04:20] [main/INFO]: Logging in with username & password
-[11:04:27] [Client thread/INFO]: Setting user: osoazul1_1
-[11:04:31] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:04:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[11:04:35] [Client thread/ERROR]: Couldn't initialize twitch stream
-[11:04:35] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:04:35] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[11:04:35] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:04:35] [Thread-8/INFO]: OpenAL initialized.
-[11:04:35] [Sound Library Loader/INFO]: Sound engine started
-[11:04:37] [Client thread/INFO]: Created: 512x512 textures-atlas
-[11:04:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[11:04:38] [Client thread/INFO]: SoundSystem shutting down...
-[11:04:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[11:04:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:04:38] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[11:04:38] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:04:38] [Thread-10/INFO]: OpenAL initialized.
-[11:04:39] [Sound Library Loader/INFO]: Sound engine started
-[11:04:40] [Client thread/INFO]: Created: 512x512 textures-atlas
-[11:04:43] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[11:04:43] [Server thread/INFO]: Generating keypair
-[11:04:43] [Server thread/INFO]: Preparing start region for level 0
-[11:04:44] [Server thread/INFO]: Preparing spawn area: 42%
-[11:04:45] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:04:46] [Server thread/INFO]: osoazul1_1[local:E:1b88c8c4] logged in with entity id 297 at (-178.76950893162228, 78.73163628108266, 207.8931099785779)
-[11:04:46] [Server thread/INFO]: osoazul1_1 joined the game
-[11:05:20] [Server thread/INFO]: Saving and pausing game...
-[11:05:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[11:05:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[11:05:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[11:05:22] [Client thread/INFO]: Stopping!
-[11:05:22] [Client thread/INFO]: SoundSystem shutting down...
-[11:05:22] [Server thread/INFO]: Stopping server
-[11:05:22] [Server thread/INFO]: Saving players
-[11:05:22] [Server thread/INFO]: Saving worlds
-[11:05:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[11:05:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[11:05:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[11:05:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[11:05:22] [Client Shutdown Thread/INFO]: Stopping server
-[11:05:22] [Client Shutdown Thread/INFO]: Saving players
-[11:05:22] [Client Shutdown Thread/INFO]: Saving worlds
-[11:05:22] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:40:56] [main/INFO]: Logging in with username & password
+[13:40:59] [Client thread/INFO]: Setting user: osoazul1_1
+[13:41:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:41:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[13:41:06] [Client thread/ERROR]: Couldn't initialize twitch stream
+[13:41:06] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:41:06] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:41:06] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:41:07] [Thread-8/INFO]: OpenAL initialized.
+[13:41:07] [Sound Library Loader/INFO]: Sound engine started
+[13:41:08] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:41:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[13:41:10] [Client thread/INFO]: SoundSystem shutting down...
+[13:41:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:41:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:41:10] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:41:10] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:41:10] [Thread-10/INFO]: OpenAL initialized.
+[13:41:10] [Sound Library Loader/INFO]: Sound engine started
+[13:41:11] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:41:21] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[13:41:21] [Server thread/INFO]: Generating keypair
+[13:41:21] [Server thread/INFO]: Preparing start region for level 0
+[13:41:22] [Server thread/INFO]: Preparing spawn area: 21%
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:22] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:23] [Server thread/WARN]: Skipping BlockEntity with id test_block
+[13:41:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:41:24] [Server thread/INFO]: osoazul1_1[local:E:03e2e506] logged in with entity id 309 at (-169.30000001192093, 73.0, 207.69999998807907)
+[13:41:24] [Server thread/INFO]: osoazul1_1 joined the game
+[13:41:29] [Server thread/INFO]: Saving and pausing game...
+[13:41:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:41:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:41:31] [Client thread/INFO]: Stopping!
+[13:41:31] [Client thread/INFO]: SoundSystem shutting down...
+[13:41:31] [Server thread/INFO]: Stopping server
+[13:41:31] [Server thread/INFO]: Saving players
+[13:41:31] [Server thread/INFO]: Saving worlds
+[13:41:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:41:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:41:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:41:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:41:31] [Client Shutdown Thread/INFO]: Stopping server
+[13:41:31] [Client Shutdown Thread/INFO]: Saving players
+[13:41:31] [Client Shutdown Thread/INFO]: Saving worlds
+[13:41:31] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

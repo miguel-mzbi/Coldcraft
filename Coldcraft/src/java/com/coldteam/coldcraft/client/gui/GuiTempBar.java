@@ -21,7 +21,7 @@ public class GuiTempBar extends GuiScreen {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void initGui() {
-		this.buttonList.add(this.a = new GuiButton(0, this.width / 2 - 100, this.height / 2 - 24, "This is button a"));
+		this.buttonList.add(this.a = new GuiButton(0, this.width / 2 - 100, this.height / 2 - 24, "Close"));
 		super.initGui();
 	}
 	
@@ -44,11 +44,8 @@ public class GuiTempBar extends GuiScreen {
 	public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 		this.drawDefaultBackground();
 		this.fontRendererObj.drawString(temp, width / 2 - 27, 50, 0xFFFFFF);
-
 		super.drawScreen(mouseX, mouseY, partialTicks);
-		
 	}
-	
 	
 	@Override
 	public boolean doesGuiPauseGame() {
