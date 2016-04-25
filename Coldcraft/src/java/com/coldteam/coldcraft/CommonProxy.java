@@ -3,6 +3,7 @@ package com.coldteam.coldcraft;
 import com.coldteam.coldcraft.blocks.ModBlocks;
 import com.coldteam.coldcraft.crafting.ModCrafting;
 import com.coldteam.coldcraft.event.EventHandlerCommon;
+import com.coldteam.coldcraft.event.LivingUpdateEvent;
 import com.coldteam.coldcraft.items.ModItems;
 import com.coldteam.coldcraft.network.ModGuiHandler;
 import com.coldteam.coldcraft.network.packets.PacketSyncPlayerData;
@@ -31,6 +32,7 @@ public class CommonProxy {
 	    Main.packetHandler.registerBidiPacket(PacketSyncPlayerData.class, new PacketSyncPlayerData.Handler());
 		Main.packetHandler.registerPacket(PacketSyncTemperature.class, new PacketSyncTemperature.Handler(), Side.CLIENT);
 	
+		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent());
 		MinecraftForge.EVENT_BUS.register(new EventHandlerCommon());
 	    NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, (IGuiHandler) new ModGuiHandler());
 		

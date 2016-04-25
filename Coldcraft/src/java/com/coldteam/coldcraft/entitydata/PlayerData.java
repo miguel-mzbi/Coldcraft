@@ -8,6 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IExtendedEntityProperties;
 
@@ -19,12 +20,20 @@ public class PlayerData implements IExtendedEntityProperties{
 
 	private final EntityPlayer player;
 	private double temperature;
+	private BlockPos pos;
+	private double onCampTemp;
+	private double tickChange = 0.0;
+	private boolean wasCampCalled;
+	
 
 	// CONSTRUCTOR, GETTER, REGISTER ==========================================
 
 	public PlayerData(EntityPlayer player) {
 		this.player = player;
-		this.temperature = 100;
+		this.temperature = 37.0;
+		this.pos = this.player.getPosition();
+		this.wasCampCalled = false;
+
 	}
 
 	public static PlayerData get(EntityPlayer player) {
@@ -53,7 +62,7 @@ public class PlayerData implements IExtendedEntityProperties{
 
 	@Override
 	public void loadNBTData(NBTTagCompound nbt) {
-		if (nbt.hasKey("temeprature", 3))
+		if (nbt.hasKey("temperature", 3))
 			this.setTemperature(nbt.getDouble("temperature"));
 
 	}
@@ -62,15 +71,56 @@ public class PlayerData implements IExtendedEntityProperties{
 	public void init(Entity entity, World world) {
 	}
 
-	// GETTER, SETTER, SYNCER =================================================
+	// Interactions =================================================
 
-	public void setTemperature(double d) {
-		this.temperature = d;
-		this.syncTemperature();
+	//When near a camp fire
+	public void campTemperature(){
+		if(this.onCampTemp < 6.0){
+			System.out.println("Camping");
+			this.onCampTemp += 0.001;
+			this.setTemperature(this.getTemperature()+0.001);
+			this.wasCampCalled = true;
+		}
+	}
+		
+	public void biomeTemperature(){
+		float biomeTemp = this.player.worldObj.getBiomeGenForCoords(this.pos).getFloatTemperature(this.pos);
+		double objectiveTemp, rate;
+		
+		if(biomeTemp < 0.5){
+			objectiveTemp = 29.0;
+			if(biomeTemp <=0){
+				rate = 8000;
+			}
+			else{
+				rate = 1600;
+			}
+		}
+		else if(0.5 < biomeTemp && biomeTemp <= 1.2){
+			objectiveTemp = 37.0;
+			rate = 10000;
+		}
+		else{
+			objectiveTemp = 43.0;
+			rate = 3000;
+		}
+		this.tickChange += (objectiveTemp - this.temperature)/rate;
 	}
 	
-	public void campTemperature() {
-		this.temperature += 0.001;
+	public void doStuff(){
+		this.tickChange = 0;
+		if(!this.wasCampCalled && this.onCampTemp > 0.0){
+			this.onCampTemp -= 0.001;
+			this.tickChange -= 0.001;
+		}
+		//this.biomeTemperature();
+		this.setTemperature(this.getTemperature()+this.tickChange);
+		this.wasCampCalled = false;
+	}
+	
+//Getters, setters, sync
+	public void setTemperature(double d) {
+		this.temperature = d;
 		this.syncTemperature();
 	}
 	
@@ -95,3 +145,4 @@ public class PlayerData implements IExtendedEntityProperties{
 	}
 	
 }
+

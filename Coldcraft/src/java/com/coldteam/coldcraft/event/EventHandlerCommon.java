@@ -10,7 +10,7 @@ import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class EventHandlerCommon {
-
+	
 	@SubscribeEvent
 	public void onEntityConstructing(EntityConstructing e) {
 	    if (e.entity instanceof EntityPlayer) {
@@ -31,4 +31,5 @@ public class EventHandlerCommon {
 	    PlayerData.get(e.original).saveReviveRelevantNBTData(nbt, e.wasDeath);
 	    PlayerData.get(e.entityPlayer).loadNBTData(nbt);
 	}
+	
 }
