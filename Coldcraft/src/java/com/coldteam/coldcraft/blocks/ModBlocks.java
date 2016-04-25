@@ -6,10 +6,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModBlocks {
 
-    public static Block testBlock;
+    public static Block campFire;
 
     public static void createBlocks() {
-        GameRegistry.registerBlock(testBlock = new BasicBlock("test_block", Material.ground, 1.0F, 10F).setLightLevel(1.0f), "test_block");
+        GameRegistry.registerBlock(campFire = new BasicBlock("camp_fire", Material.ground, 1.0F, 10F).setLightLevel(1.0f), "camp_fire");
     
 	}
 }

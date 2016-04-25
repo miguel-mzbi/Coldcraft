@@ -1,0 +1,92 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 4/21/16 1:34 PM
+Description: Ticking memory connection
+
+java.lang.NullPointerException: Ticking memory connection
+	at net.minecraft.entity.player.EntityPlayer.getName(EntityPlayer.java:2311)
+	at net.minecraft.entity.Entity.toString(Entity.java:2427)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at net.minecraftforge.fml.common.TracingPrintStream.println(TracingPrintStream.java:33)
+	at com.coldteam.coldcraft.entitydata.PlayerData.<init>(PlayerData.java:33)
+	at com.coldteam.coldcraft.entitydata.PlayerData.register(PlayerData.java:41)
+	at com.coldteam.coldcraft.event.EventHandlerCommon.onEntityConstructing(EventHandlerCommon.java:17)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_9_EventHandlerCommon_onEntityConstructing_EntityConstructing.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:138)
+	at net.minecraft.entity.Entity.<init>(Entity.java:231)
+	at net.minecraft.entity.EntityLivingBase.<init>(EntityLivingBase.java:160)
+	at net.minecraft.entity.player.EntityPlayer.<init>(EntityPlayer.java:165)
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:155)
+	at net.minecraft.server.management.ServerConfigurationManager.createPlayerForUser(ServerConfigurationManager.java:474)
+	at net.minecraft.server.network.NetHandlerLoginServer.tryAcceptPlayer(NetHandlerLoginServer.java:120)
+	at net.minecraft.server.network.NetHandlerLoginServer.update(NetHandlerLoginServer.java:66)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:270)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:208)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:669)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:171)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:540)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayer.getName(EntityPlayer.java:2311)
+	at net.minecraft.entity.Entity.toString(Entity.java:2427)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at net.minecraftforge.fml.common.TracingPrintStream.println(TracingPrintStream.java:33)
+	at com.coldteam.coldcraft.entitydata.PlayerData.<init>(PlayerData.java:33)
+	at com.coldteam.coldcraft.entitydata.PlayerData.register(PlayerData.java:41)
+	at com.coldteam.coldcraft.event.EventHandlerCommon.onEntityConstructing(EventHandlerCommon.java:17)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_9_EventHandlerCommon_onEntityConstructing_EntityConstructing.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:138)
+	at net.minecraft.entity.Entity.<init>(Entity.java:231)
+	at net.minecraft.entity.EntityLivingBase.<init>(EntityLivingBase.java:160)
+	at net.minecraft.entity.player.EntityPlayer.<init>(EntityPlayer.java:165)
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:155)
+	at net.minecraft.server.management.ServerConfigurationManager.createPlayerForUser(ServerConfigurationManager.java:474)
+	at net.minecraft.server.network.NetHandlerLoginServer.tryAcceptPlayer(NetHandlerLoginServer.java:120)
+	at net.minecraft.server.network.NetHandlerLoginServer.update(NetHandlerLoginServer.java:66)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:270)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@78ff10da
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:208)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:669)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:171)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:540)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 4.2.0-35-generic
+	Java Version: 1.8.0_77, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 189647840 bytes (180 MB) / 742391808 bytes (708 MB) up to 1791492096 bytes (1708 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 15, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1450 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHIJAAAA	Forge{11.14.3.1450} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHIJAAAA	coldcraft{0.1.0} [Coldcraft Survival Mod] (bin) 
+	UCHIJAAAA	minersbasic{1.0-b.327} [Miner's Basic] (Minersbasic-1.0-b.327-mc1.8-deobf.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

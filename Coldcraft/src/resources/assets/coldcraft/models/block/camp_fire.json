@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "coldcraft:blocks/test_block"
+        "all": "coldcraft:blocks/camp_fire"
     }
 }

@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 public final class BlockRenderRegister {
 
 	public static void registerBlockRenderer() {
-		reg(ModBlocks.testBlock);
+		reg(ModBlocks.campFire);
 	}
 
 	public static String modid = Main.MODID;
