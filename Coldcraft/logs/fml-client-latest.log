@@ -1,59 +1,59 @@
-[13:40:57] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[13:40:57] [main/INFO] [FML/]: Forge Mod Loader version 8.99.124.1450 for Minecraft 1.8 loading
-[13:40:57] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_92, running on Linux:amd64:4.2.0-35-generic, installed at /usr/lib/jvm/java-8-oracle/jre
-[13:40:57] [main/DEBUG] [FML/]: Java classpath at launch is /home/miguel/git/Coldcraft/Coldcraft/bin:/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/home/miguel/MineMods/Miner's Basic/Minersbasic-1.0-b.327-mc1.8-deobf.jar:/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start
-[13:40:57] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib:/home/miguel/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.8
-[13:40:57] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[13:40:57] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[13:40:57] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[13:40:57] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[13:40:57] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[13:40:57] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
-[13:40:57] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[13:40:57] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[13:40:57] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/miguel/git/Coldcraft/Coldcraft/.
-[13:40:57] [main/DEBUG] [FML/]: Discovering coremods
-[13:40:57] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:40:57] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[13:40:57] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[13:40:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:40:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:40:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:40:57] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:40:57] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:40:57] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:40:57] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
-[13:40:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[13:40:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.MarkerTransformer
-[13:40:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[13:40:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[13:40:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[13:40:57] [main/DEBUG] [FML/]: Injection complete
-[13:40:57] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
-[13:40:57] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[13:40:57] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[13:40:58] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
-[13:40:58] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[13:40:58] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:40:58] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[13:40:58] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
-[13:40:58] [main/DEBUG] [FML/]: Injection complete
-[13:40:58] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[13:40:58] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[13:40:58] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[13:40:58] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:40:58] [main/DEBUG] [FML/]: Loaded 60 rules from AccessTransformer config file fml_at.cfg
-[13:40:58] [main/DEBUG] [FML/]: Loaded 120 rules from AccessTransformer config file forge_at.cfg
-[13:40:58] [main/DEBUG] [FML/]: Validating minecraft
-[13:40:59] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[13:40:59] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:40:59] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:40:59] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:40:59] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[13:41:03] [Client thread/INFO] [STDOUT/]: [net.minecraftforge.fml.client.SplashProgress:start:235]: ---- Minecraft Crash Report ----
-// Why is it breaking :(
+[13:33:02] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[13:33:02] [main/INFO] [FML/]: Forge Mod Loader version 8.99.124.1450 for Minecraft 1.8 loading
+[13:33:02] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_92, running on Linux:amd64:4.4.0-21-generic, installed at /usr/lib/jvm/java-8-oracle/jre
+[13:33:02] [main/DEBUG] [FML/]: Java classpath at launch is /home/miguel/git/Coldcraft/Coldcraft/bin:/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/home/miguel/MineMods/Miner's Basic/Minersbasic-1.0-b.327-mc1.8-deobf.jar:/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar:/home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start
+[13:33:02] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib:/home/miguel/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.8
+[13:33:02] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:33:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[13:33:02] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[13:33:02] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[13:33:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[13:33:02] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[13:33:02] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[13:33:02] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[13:33:02] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/miguel/git/Coldcraft/Coldcraft/.
+[13:33:02] [main/DEBUG] [FML/]: Discovering coremods
+[13:33:02] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:33:02] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:33:02] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:33:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:33:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:33:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:33:02] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:33:02] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:33:02] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:33:02] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[13:33:02] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:33:02] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.MarkerTransformer
+[13:33:02] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:33:02] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:33:02] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:33:02] [main/DEBUG] [FML/]: Injection complete
+[13:33:02] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[13:33:02] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[13:33:02] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:33:03] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[13:33:03] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[13:33:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:33:03] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[13:33:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[13:33:03] [main/DEBUG] [FML/]: Injection complete
+[13:33:03] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[13:33:03] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[13:33:03] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[13:33:03] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:33:03] [main/DEBUG] [FML/]: Loaded 60 rules from AccessTransformer config file fml_at.cfg
+[13:33:03] [main/DEBUG] [FML/]: Loaded 120 rules from AccessTransformer config file forge_at.cfg
+[13:33:03] [main/DEBUG] [FML/]: Validating minecraft
+[13:33:04] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[13:33:04] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:33:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:33:04] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:33:04] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:33:09] [Client thread/INFO] [STDOUT/]: [net.minecraftforge.fml.client.SplashProgress:start:235]: ---- Minecraft Crash Report ----
+// Would you like a cupcake?
 
-Time: 4/25/16 1:41 PM
+Time: 4/28/16 1:33 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -65,403 +65,610 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- System Details --
 Details:
 	Minecraft Version: 1.8
-	Operating System: Linux (amd64) version 4.2.0-35-generic
+	Operating System: Linux (amd64) version 4.4.0-21-generic
 	Java Version: 1.8.0_92, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 274474976 bytes (261 MB) / 420478976 bytes (401 MB) up to 1791492096 bytes (1708 MB)
+	Memory: 484857432 bytes (462 MB) / 625999872 bytes (597 MB) up to 1791492096 bytes (1708 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 11.0.2' Renderer: 'Mesa DRI Intel(R) Ivybridge Mobile '
-[13:41:03] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[13:41:03] [Client thread/INFO] [FML/]: MinecraftForge v11.14.3.1450 Initialized
-[13:41:03] [Client thread/INFO] [FML/]: Replaced 204 ore recipies
-[13:41:03] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[13:41:03] [Client thread/DEBUG] [FML/]: File /home/miguel/git/Coldcraft/Coldcraft/config/injectedDependencies.json not found. No dependencies injected
-[13:41:03] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[13:41:03] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/miguel/git/Coldcraft/Coldcraft/bin, examining for mod candidates
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/MineMods/Miner's Basic/Minersbasic-1.0-b.327-mc1.8-deobf.jar, examining for mod candidates
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar, examining for mod candidates
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar, examining for mod candidates
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar
-[13:41:03] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
-[13:41:03] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start, examining for mod candidates
-[13:41:03] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[13:41:03] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[13:41:03] [Client thread/INFO] [FML/]: Searching /home/miguel/git/Coldcraft/Coldcraft/mods for mods
-[13:41:03] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
-[13:41:03] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.blockstates
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.lang
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models.block
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models.item
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures.blocks
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures.items
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft
-[13:41:03] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.coldteam.coldcraft.Main) - loading
-[13:41:03] [Client thread/TRACE] [coldcraft/]: Parsed dependency info : [] [] []
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.blocks
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.gui
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render.blocks
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render.items
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.crafting
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.entitydata
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.event
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.items
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.network
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.network.packets
-[13:41:03] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.tileentity
-[13:41:03] [Client thread/DEBUG] [FML/]: Examining file Minersbasic-1.0-b.327-mc1.8-deobf.jar for potential mods
-[13:41:03] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Minersbasic-1.0-b.327-mc1.8-deobf.jar
-[13:41:03] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (minersbasic.Minersbasic) - loading
-[13:41:03] [Client thread/TRACE] [minersbasic/]: Parsed dependency info : [] [] []
-[13:41:03] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8-11.14.3.1450.jar for potential mods
-[13:41:03] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8-11.14.3.1450.jar appears to be missing an mcmod.info file
-[13:41:05] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
-[13:41:05] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
-[13:41:05] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
-[13:41:05] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
-[13:41:05] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
-[13:41:05] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
-[13:41:05] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
-[13:41:05] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
-[13:41:05] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
-[13:41:05] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
-[13:41:05] [Client thread/TRACE] [FML/]: Recursing into package net
-[13:41:05] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
-[13:41:05] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
-[13:41:05] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
-[13:41:05] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
-[13:41:05] [Client thread/TRACE] [FML/]: Received a system property request ''
-[13:41:05] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[13:41:05] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[13:41:05] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [en_US, nb_NO, pt_BR, ko_KR, br_FR, sl_SI, lt_LT, de_DE, ja_JP, af_ZA, vi_VN, en_US, tr_TR, sv_SE, fr_FR, fa_IR, el_GR, nl_NL, no_NO, zh_TW, zh_CN, es_ES, uk_UA, ro_RO, it_IT, ru_RU, ar_SA, da_DK, hu_HU, he_IL, ca_ES, pl_PL, cs_CZ, sr_SP, fi_FI, nn_NO, pt_PT, en_US]
-[13:41:05] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [en_US, nb_NO, pt_BR, ko_KR, br_FR, sl_SI, lt_LT, de_DE, ja_JP, af_ZA, vi_VN, en_US, tr_TR, sv_SE, fr_FR, fa_IR, el_GR, nl_NL, no_NO, zh_TW, zh_CN, es_ES, uk_UA, ro_RO, it_IT, ru_RU, ar_SA, da_DK, hu_HU, he_IL, ca_ES, pl_PL, cs_CZ, sr_SP, fi_FI, nn_NO, pt_PT, en_US]
-[13:41:05] [Client thread/DEBUG] [coldcraft/]: Enabling mod coldcraft
-[13:41:05] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/coldcraft/lang/en_US.lang into language system
-[13:41:05] [Client thread/DEBUG] [minersbasic/]: Enabling mod minersbasic
-[13:41:05] [Client thread/DEBUG] [FML/]: Found translations in Minersbasic-1.0-b.327-mc1.8-deobf.jar [de_DE, en_US]
-[13:41:05] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[13:41:05] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
-[13:41:05] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
-[13:41:05] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
-[13:41:05] [Client thread/DEBUG] [FML/]: Mod sorting data
-[13:41:05] [Client thread/DEBUG] [FML/]: 	coldcraft(Coldcraft Survival Mod:0.1.0): bin ()
-[13:41:05] [Client thread/DEBUG] [FML/]: 	minersbasic(Miner's Basic:1.0-b.327): Minersbasic-1.0-b.327-mc1.8-deobf.jar ()
-[13:41:05] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[13:41:05] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[13:41:05] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[13:41:06] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[13:41:06] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[13:41:06] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
-[13:41:06] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, coldcraft, minersbasic] at CLIENT
-[13:41:06] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, coldcraft, minersbasic] at SERVER
-[13:41:06] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[13:41:06] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[13:41:06] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[13:41:06] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[13:41:06] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.14.3.1450)
-[13:41:06] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[13:41:06] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLConstructionEvent to mod coldcraft
-[13:41:06] [Client thread/TRACE] [FML/coldcraft]: Mod coldcraft is using network checker : Accepting version 0.1.0
-[13:41:06] [Client thread/TRACE] [FML/coldcraft]: Testing mod coldcraft to verify it accepts its own version in a remote connection
-[13:41:06] [Client thread/TRACE] [FML/coldcraft]: The mod coldcraft accepts its own version (0.1.0)
-[13:41:06] [Client thread/DEBUG] [FML/coldcraft]: Attempting to inject @SidedProxy classes into coldcraft
-[13:41:06] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLConstructionEvent to mod coldcraft
-[13:41:06] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLConstructionEvent to mod minersbasic
-[13:41:06] [Client thread/TRACE] [FML/minersbasic]: Mod minersbasic is using network checker : Invoking method checkMap
-[13:41:06] [Client thread/TRACE] [FML/minersbasic]: Testing mod minersbasic to verify it accepts its own version in a remote connection
-[13:41:06] [Client thread/TRACE] [FML/minersbasic]: The mod minersbasic accepts its own version (1.0-b.327)
-[13:41:06] [Client thread/DEBUG] [FML/minersbasic]: Attempting to inject @SidedProxy classes into minersbasic
-[13:41:06] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLConstructionEvent to mod minersbasic
-[13:41:06] [Client thread/DEBUG] [FML/]: Mod signature data
-[13:41:06] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
-[13:41:06] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
-[13:41:06] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
-[13:41:06] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8-11.14.3.1450.jar
-[13:41:06] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.14.3.1450)	forgeSrc-1.8-11.14.3.1450.jar
-[13:41:06] [Client thread/DEBUG] [FML/]: 		coldcraft	(Coldcraft Survival Mod	0.1.0)	bin
-[13:41:06] [Client thread/DEBUG] [FML/]: 		minersbasic	(Miner's Basic	1.0-b.327)	Minersbasic-1.0-b.327-mc1.8-deobf.jar
-[13:41:06] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[13:41:06] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[13:41:06] [Client thread/DEBUG] [Coldcraft Survival Mod/]: Mod Coldcraft Survival Mod is missing a pack.mcmeta file, substituting a dummy one
-[13:41:06] [Client thread/DEBUG] [Miner's Basic/]: Mod Miner's Basic is missing a pack.mcmeta file, substituting a dummy one
-[13:41:06] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
-[13:41:06] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
-[13:41:06] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[13:41:06] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[13:41:06] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[13:41:06] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[13:41:06] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[13:41:06] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[13:41:06] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[13:41:06] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[13:41:06] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[13:41:06] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLPreInitializationEvent to mod coldcraft
-[13:41:06] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLPreInitializationEvent to mod coldcraft
-[13:41:06] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLPreInitializationEvent to mod minersbasic
-[13:41:06] [Client thread/INFO] [minersbasic/minersbasic]: Initializing Miner's Basic (minersbasic@1.0-b.327)...
-[13:41:06] [Client thread/INFO] [minersbasic/minersbasic]: Starting the Reflection Self-Test on client side...
-[13:41:06] [Client thread/INFO] [minersbasic/minersbasic]: Starting the Reflection Self-Test on client side...
-[13:41:06] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLPreInitializationEvent to mod minersbasic
-[13:41:06] [Client thread/INFO] [FML/]: Applying holder lookups
-[13:41:06] [Client thread/INFO] [FML/]: Holder lookups applied
-[13:41:06] [Client thread/INFO] [FML/]: Injecting itemstacks
-[13:41:06] [Client thread/INFO] [FML/]: Itemstack injection complete
-[13:41:06] [Client thread/INFO] [STDOUT/]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
-[13:41:08] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:packetitem#inventory', trying to load the variant from the blockstate json
-[13:41:08] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:output_item#inventory', trying to load the variant from the blockstate json
-[13:41:08] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:increase_item#inventory', trying to load the variant from the blockstate json
-[13:41:08] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:decrease_item#inventory', trying to load the variant from the blockstate json
-[13:41:09] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:output_item#inventory not found
-[13:41:09] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:decrease_item#inventory not found
-[13:41:09] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:increase_item#inventory not found
-[13:41:09] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:packetitem#inventory not found
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
-[13:41:09] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
-[13:41:09] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
-[13:41:09] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLInitializationEvent to mod coldcraft
-[13:41:09] [Client thread/DEBUG] [minersbasic/coldcraft]: Registered bidirectional packet class PacketSyncPlayerData with handler class Handler for the channel coldcraft. The discriminator is 0.
-[13:41:09] [Client thread/DEBUG] [minersbasic/coldcraft]: Registered packet class PacketSyncTemperature with handler class Handler for the channel coldcraft. Send direction: to client. The discriminator is 1.
-[13:41:09] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLInitializationEvent to mod coldcraft
-[13:41:09] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLInitializationEvent to mod minersbasic
-[13:41:09] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLInitializationEvent to mod minersbasic
-[13:41:09] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
-[13:41:09] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
-[13:41:09] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
-[13:41:09] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
-[13:41:09] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod coldcraft
-[13:41:09] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event IMCEvent to mod coldcraft
-[13:41:09] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event IMCEvent to mod coldcraft
-[13:41:09] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minersbasic
-[13:41:09] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event IMCEvent to mod minersbasic
-[13:41:09] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event IMCEvent to mod minersbasic
-[13:41:09] [Client thread/INFO] [FML/]: Injecting itemstacks
-[13:41:09] [Client thread/INFO] [FML/]: Itemstack injection complete
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
-[13:41:09] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
-[13:41:09] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
-[13:41:10] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
-[13:41:10] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLPostInitializationEvent to mod coldcraft
-[13:41:10] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLPostInitializationEvent to mod coldcraft
-[13:41:10] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLPostInitializationEvent to mod minersbasic
-[13:41:10] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLPostInitializationEvent to mod minersbasic
-[13:41:10] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
-[13:41:10] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
-[13:41:10] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
-[13:41:10] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
-[13:41:10] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
-[13:41:10] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[13:41:10] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
-[13:41:10] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
-[13:41:10] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
-[13:41:10] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLLoadCompleteEvent to mod coldcraft
-[13:41:10] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLLoadCompleteEvent to mod coldcraft
-[13:41:10] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLLoadCompleteEvent to mod minersbasic
-[13:41:10] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLLoadCompleteEvent to mod minersbasic
-[13:41:10] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
-[13:41:10] [Client thread/DEBUG] [FML/]: Registry consistency check successful
-[13:41:10] [Client thread/DEBUG] [FML/]: Registry consistency check successful
-[13:41:10] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
-[13:41:11] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:packetitem#inventory', trying to load the variant from the blockstate json
-[13:41:11] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:output_item#inventory', trying to load the variant from the blockstate json
-[13:41:11] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:increase_item#inventory', trying to load the variant from the blockstate json
-[13:41:11] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:decrease_item#inventory', trying to load the variant from the blockstate json
-[13:41:11] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:output_item#inventory not found
-[13:41:11] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:decrease_item#inventory not found
-[13:41:11] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:increase_item#inventory not found
-[13:41:11] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:packetitem#inventory not found
-[13:41:11] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[13:41:11] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[13:41:11] [Client thread/DEBUG] [Coldcraft Survival Mod/]: Mod Coldcraft Survival Mod is missing a pack.mcmeta file, substituting a dummy one
-[13:41:11] [Client thread/DEBUG] [Miner's Basic/]: Mod Miner's Basic is missing a pack.mcmeta file, substituting a dummy one
-[13:41:21] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
-[13:41:21] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
-[13:41:21] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
-[13:41:21] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
-[13:41:21] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
-[13:41:21] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
-[13:41:21] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerAboutToStartEvent to mod coldcraft
-[13:41:21] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerAboutToStartEvent to mod coldcraft
-[13:41:21] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerAboutToStartEvent to mod minersbasic
-[13:41:21] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerAboutToStartEvent to mod minersbasic
-[13:41:21] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
-[13:41:21] [Server thread/DEBUG] [FML/]: Registry consistency check successful
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed block id mismatch coldcraft:camp_fire: 198 (init) -> 199 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:decrease_item: 4099 (init) -> 4097 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:output_item: 4097 (init) -> 4098 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:packetitem: 4096 (init) -> 4099 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:increase_item: 4098 (init) -> 4096 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:camp_fire: 198 (init) -> 199 (map).
-[13:41:21] [Server thread/DEBUG] [FML/]: Registry consistency check successful
-[13:41:21] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
-[13:41:21] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
-[13:41:21] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
-[13:41:21] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
-[13:41:21] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
-[13:41:21] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
-[13:41:21] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLModIdMappingEvent to mod coldcraft
-[13:41:21] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLModIdMappingEvent to mod coldcraft
-[13:41:21] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLModIdMappingEvent to mod minersbasic
-[13:41:21] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLModIdMappingEvent to mod minersbasic
-[13:41:21] [Server thread/INFO] [FML/]: Applying holder lookups
-[13:41:21] [Server thread/INFO] [FML/]: Holder lookups applied
-[13:41:21] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
-[13:41:21] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
-[13:41:21] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
-[13:41:21] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@330b5eeb)
-[13:41:21] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@330b5eeb)
-[13:41:21] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@330b5eeb)
-[13:41:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
-[13:41:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
-[13:41:23] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
-[13:41:23] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
-[13:41:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
-[13:41:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
-[13:41:23] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStartingEvent to mod coldcraft
-[13:41:23] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStartingEvent to mod coldcraft
-[13:41:23] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStartingEvent to mod minersbasic
-[13:41:23] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStartingEvent to mod minersbasic
-[13:41:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
-[13:41:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
-[13:41:23] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
-[13:41:23] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
-[13:41:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
-[13:41:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
-[13:41:23] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStartedEvent to mod coldcraft
-[13:41:23] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStartedEvent to mod coldcraft
-[13:41:23] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStartedEvent to mod minersbasic
-[13:41:23] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStartedEvent to mod minersbasic
-[13:41:24] [Netty Local Client IO #0/TRACE] [FML/]: Handshake channel activating
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: HELLO
-[13:41:24] [Netty Server IO #1/TRACE] [FML/]: Handshake channel activating
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
-[13:41:24] [Netty Local Client IO #0/INFO] [FML/]: Server protocol version 2
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: Received override dimension 0
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
-[13:41:24] [Netty Server IO #1/INFO] [FML/]: Client protocol version 2
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
-[13:41:24] [Netty Server IO #1/INFO] [FML/]: Client attempting to join with 5 mods : FML@8.0.99.99,Forge@11.14.3.1450,mcp@9.05,coldcraft@0.1.0,minersbasic@1.0-b.327
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: COMPLETE
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
-[13:41:24] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: DONE
-[13:41:24] [Netty Local Client IO #0/INFO] [FML/]: [Netty Local Client IO #0] Client side modded connection established
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
-[13:41:24] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
-[13:41:24] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[13:41:24] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
-[13:41:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
-[13:41:31] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
-[13:41:31] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
-[13:41:31] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
-[13:41:31] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
-[13:41:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
-[13:41:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
-[13:41:31] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStoppingEvent to mod coldcraft
-[13:41:31] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStoppingEvent to mod coldcraft
-[13:41:31] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStoppingEvent to mod minersbasic
-[13:41:31] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStoppingEvent to mod minersbasic
-[13:41:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
-[13:41:31] [Client Shutdown Thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 11.2.0' Renderer: 'Mesa DRI Intel(R) Ivybridge Mobile '
+[13:33:09] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[13:33:09] [Client thread/INFO] [FML/]: MinecraftForge v11.14.3.1450 Initialized
+[13:33:10] [Client thread/INFO] [FML/]: Replaced 204 ore recipies
+[13:33:10] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[13:33:10] [Client thread/DEBUG] [FML/]: File /home/miguel/git/Coldcraft/Coldcraft/config/injectedDependencies.json not found. No dependencies injected
+[13:33:10] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[13:33:10] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/miguel/git/Coldcraft/Coldcraft/bin, examining for mod candidates
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/MineMods/Miner's Basic/Minersbasic-1.0-b.327-mc1.8-deobf.jar, examining for mod candidates
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/snapshot/20141130/forgeSrc-1.8-11.14.3.1450.jar, examining for mod candidates
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar, examining for mod candidates
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.6.1/5655f6fb44aece10e5b3ad7cfee3e6936031c068/realms-1.6.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/f58c5aabcef0e41718a564be9f8e412fff8db847/lwjgl-2.9.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.1/290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e/lwjgl_util-2.9.1.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/4c517eca808522457dd95ee8fc1fbcdbb602efbe/lwjgl-platform-2.9.1-natives-windows.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/aa9aae879af8eb378e22cfc64db56ec2ca9a44d1/lwjgl-platform-2.9.1-natives-linux.jar
+[13:33:10] [Client thread/TRACE] [FML/]: Skipping known library file /home/miguel/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.1/2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac/lwjgl-platform-2.9.1-natives-osx.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/miguel/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[13:33:10] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/miguel/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.3.1450/start, examining for mod candidates
+[13:33:10] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[13:33:10] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:33:10] [Client thread/INFO] [FML/]: Searching /home/miguel/git/Coldcraft/Coldcraft/mods for mods
+[13:33:10] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[13:33:10] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.blockstates
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.lang
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models.block
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.models.item
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures.blocks
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package assets.coldcraft.textures.items
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft
+[13:33:10] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.coldteam.coldcraft.Main) - loading
+[13:33:10] [Client thread/TRACE] [coldcraft/]: Parsed dependency info : [] [] []
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.blocks
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.gui
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render.blocks
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.client.render.items
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.crafting
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.entitydata
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.event
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.items
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.network
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.network.packets
+[13:33:10] [Client thread/TRACE] [FML/]: Recursing into package com.coldteam.coldcraft.tileentity
+[13:33:10] [Client thread/DEBUG] [FML/]: Examining file Minersbasic-1.0-b.327-mc1.8-deobf.jar for potential mods
+[13:33:10] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Minersbasic-1.0-b.327-mc1.8-deobf.jar
+[13:33:10] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (minersbasic.Minersbasic) - loading
+[13:33:10] [Client thread/TRACE] [minersbasic/]: Parsed dependency info : [] [] []
+[13:33:10] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8-11.14.3.1450.jar for potential mods
+[13:33:10] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8-11.14.3.1450.jar appears to be missing an mcmod.info file
+[13:33:11] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[13:33:11] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[13:33:12] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[13:33:12] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[13:33:12] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[13:33:12] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[13:33:12] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[13:33:12] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[13:33:12] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[13:33:12] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[13:33:12] [Client thread/TRACE] [FML/]: Recursing into package net
+[13:33:12] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[13:33:12] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[13:33:12] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[13:33:12] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[13:33:12] [Client thread/TRACE] [FML/]: Received a system property request ''
+[13:33:12] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[13:33:12] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[13:33:12] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [en_US, nb_NO, pt_BR, ko_KR, br_FR, sl_SI, lt_LT, de_DE, ja_JP, af_ZA, vi_VN, en_US, tr_TR, sv_SE, fr_FR, fa_IR, el_GR, nl_NL, no_NO, zh_TW, zh_CN, es_ES, uk_UA, ro_RO, it_IT, ru_RU, ar_SA, da_DK, hu_HU, he_IL, ca_ES, pl_PL, cs_CZ, sr_SP, fi_FI, nn_NO, pt_PT, en_US]
+[13:33:12] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8-11.14.3.1450.jar [en_US, nb_NO, pt_BR, ko_KR, br_FR, sl_SI, lt_LT, de_DE, ja_JP, af_ZA, vi_VN, en_US, tr_TR, sv_SE, fr_FR, fa_IR, el_GR, nl_NL, no_NO, zh_TW, zh_CN, es_ES, uk_UA, ro_RO, it_IT, ru_RU, ar_SA, da_DK, hu_HU, he_IL, ca_ES, pl_PL, cs_CZ, sr_SP, fi_FI, nn_NO, pt_PT, en_US]
+[13:33:12] [Client thread/DEBUG] [coldcraft/]: Enabling mod coldcraft
+[13:33:12] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/coldcraft/lang/en_US.lang into language system
+[13:33:12] [Client thread/DEBUG] [minersbasic/]: Enabling mod minersbasic
+[13:33:12] [Client thread/DEBUG] [FML/]: Found translations in Minersbasic-1.0-b.327-mc1.8-deobf.jar [de_DE, en_US]
+[13:33:12] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[13:33:12] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[13:33:12] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[13:33:12] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[13:33:12] [Client thread/DEBUG] [FML/]: Mod sorting data
+[13:33:12] [Client thread/DEBUG] [FML/]: 	coldcraft(Coldcraft Survival Mod:0.1.0): bin ()
+[13:33:12] [Client thread/DEBUG] [FML/]: 	minersbasic(Miner's Basic:1.0-b.327): Minersbasic-1.0-b.327-mc1.8-deobf.jar ()
+[13:33:12] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[13:33:12] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[13:33:12] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[13:33:12] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[13:33:12] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[13:33:12] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[13:33:12] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, coldcraft, minersbasic] at CLIENT
+[13:33:12] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, coldcraft, minersbasic] at SERVER
+[13:33:13] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[13:33:13] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[13:33:13] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[13:33:13] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[13:33:13] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.14.3.1450)
+[13:33:13] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[13:33:13] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLConstructionEvent to mod coldcraft
+[13:33:13] [Client thread/TRACE] [FML/coldcraft]: Mod coldcraft is using network checker : Accepting version 0.1.0
+[13:33:13] [Client thread/TRACE] [FML/coldcraft]: Testing mod coldcraft to verify it accepts its own version in a remote connection
+[13:33:13] [Client thread/TRACE] [FML/coldcraft]: The mod coldcraft accepts its own version (0.1.0)
+[13:33:13] [Client thread/DEBUG] [FML/coldcraft]: Attempting to inject @SidedProxy classes into coldcraft
+[13:33:13] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLConstructionEvent to mod coldcraft
+[13:33:13] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLConstructionEvent to mod minersbasic
+[13:33:13] [Client thread/TRACE] [FML/minersbasic]: Mod minersbasic is using network checker : Invoking method checkMap
+[13:33:13] [Client thread/TRACE] [FML/minersbasic]: Testing mod minersbasic to verify it accepts its own version in a remote connection
+[13:33:13] [Client thread/TRACE] [FML/minersbasic]: The mod minersbasic accepts its own version (1.0-b.327)
+[13:33:13] [Client thread/DEBUG] [FML/minersbasic]: Attempting to inject @SidedProxy classes into minersbasic
+[13:33:13] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLConstructionEvent to mod minersbasic
+[13:33:13] [Client thread/DEBUG] [FML/]: Mod signature data
+[13:33:13] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[13:33:13] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[13:33:13] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[13:33:13] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8-11.14.3.1450.jar
+[13:33:13] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.14.3.1450)	forgeSrc-1.8-11.14.3.1450.jar
+[13:33:13] [Client thread/DEBUG] [FML/]: 		coldcraft	(Coldcraft Survival Mod	0.1.0)	bin
+[13:33:13] [Client thread/DEBUG] [FML/]: 		minersbasic	(Miner's Basic	1.0-b.327)	Minersbasic-1.0-b.327-mc1.8-deobf.jar
+[13:33:13] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[13:33:13] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[13:33:13] [Client thread/DEBUG] [Coldcraft Survival Mod/]: Mod Coldcraft Survival Mod is missing a pack.mcmeta file, substituting a dummy one
+[13:33:13] [Client thread/DEBUG] [Miner's Basic/]: Mod Miner's Basic is missing a pack.mcmeta file, substituting a dummy one
+[13:33:13] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[13:33:13] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[13:33:13] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[13:33:13] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[13:33:13] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[13:33:13] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[13:33:13] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[13:33:13] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[13:33:13] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[13:33:13] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[13:33:13] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[13:33:13] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLPreInitializationEvent to mod coldcraft
+[13:33:13] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLPreInitializationEvent to mod coldcraft
+[13:33:13] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLPreInitializationEvent to mod minersbasic
+[13:33:13] [Client thread/INFO] [minersbasic/minersbasic]: Initializing Miner's Basic (minersbasic@1.0-b.327)...
+[13:33:13] [Client thread/INFO] [minersbasic/minersbasic]: Starting the Reflection Self-Test on client side...
+[13:33:13] [Client thread/INFO] [minersbasic/minersbasic]: Starting the Reflection Self-Test on client side...
+[13:33:13] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLPreInitializationEvent to mod minersbasic
+[13:33:13] [Client thread/INFO] [FML/]: Applying holder lookups
+[13:33:13] [Client thread/INFO] [FML/]: Holder lookups applied
+[13:33:13] [Client thread/INFO] [FML/]: Injecting itemstacks
+[13:33:13] [Client thread/INFO] [FML/]: Itemstack injection complete
+[13:33:13] [Client thread/INFO] [STDOUT/]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[13:33:15] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:packetitem#inventory', trying to load the variant from the blockstate json
+[13:33:15] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:output_item#inventory', trying to load the variant from the blockstate json
+[13:33:15] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:increase_item#inventory', trying to load the variant from the blockstate json
+[13:33:15] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:decrease_item#inventory', trying to load the variant from the blockstate json
+[13:33:17] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:output_item#inventory not found
+[13:33:17] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:decrease_item#inventory not found
+[13:33:17] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:increase_item#inventory not found
+[13:33:17] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:packetitem#inventory not found
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLInitializationEvent to mod coldcraft
+[13:33:17] [Client thread/DEBUG] [minersbasic/coldcraft]: Registered bidirectional packet class PacketSyncPlayerData with handler class Handler for the channel coldcraft. The discriminator is 0.
+[13:33:17] [Client thread/DEBUG] [minersbasic/coldcraft]: Registered packet class PacketSyncTemperature with handler class Handler for the channel coldcraft. Send direction: to client. The discriminator is 1.
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLInitializationEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLInitializationEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLInitializationEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[13:33:17] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod coldcraft
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event IMCEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event IMCEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minersbasic
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event IMCEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event IMCEvent to mod minersbasic
+[13:33:17] [Client thread/INFO] [FML/]: Injecting itemstacks
+[13:33:17] [Client thread/INFO] [FML/]: Itemstack injection complete
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLPostInitializationEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLPostInitializationEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLPostInitializationEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLPostInitializationEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[13:33:17] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[13:33:17] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[13:33:17] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[13:33:17] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[13:33:17] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sending event FMLLoadCompleteEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [coldcraft/coldcraft]: Sent event FMLLoadCompleteEvent to mod coldcraft
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sending event FMLLoadCompleteEvent to mod minersbasic
+[13:33:17] [Client thread/TRACE] [minersbasic/minersbasic]: Sent event FMLLoadCompleteEvent to mod minersbasic
+[13:33:17] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[13:33:18] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[13:33:18] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[13:33:18] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[13:33:19] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:packetitem#inventory', trying to load the variant from the blockstate json
+[13:33:19] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:output_item#inventory', trying to load the variant from the blockstate json
+[13:33:19] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:increase_item#inventory', trying to load the variant from the blockstate json
+[13:33:19] [Client thread/DEBUG] [FML/]: Item json isn't found for 'coldcraft:decrease_item#inventory', trying to load the variant from the blockstate json
+[13:33:19] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:output_item#inventory not found
+[13:33:19] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:decrease_item#inventory not found
+[13:33:19] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:increase_item#inventory not found
+[13:33:19] [Client thread/ERROR] [FML/]: Model definition for location coldcraft:packetitem#inventory not found
+[13:33:19] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[13:33:19] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[13:33:19] [Client thread/DEBUG] [Coldcraft Survival Mod/]: Mod Coldcraft Survival Mod is missing a pack.mcmeta file, substituting a dummy one
+[13:33:19] [Client thread/DEBUG] [Miner's Basic/]: Mod Miner's Basic is missing a pack.mcmeta file, substituting a dummy one
+[13:33:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[13:33:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[13:33:24] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[13:33:24] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[13:33:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[13:33:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[13:33:24] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerAboutToStartEvent to mod coldcraft
+[13:33:24] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerAboutToStartEvent to mod coldcraft
+[13:33:24] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerAboutToStartEvent to mod minersbasic
+[13:33:24] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerAboutToStartEvent to mod minersbasic
+[13:33:24] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[13:33:24] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed block id mismatch coldcraft:camp_fire: 198 (init) -> 199 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:decrease_item: 4099 (init) -> 4097 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:output_item: 4097 (init) -> 4098 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:packetitem: 4096 (init) -> 4099 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:increase_item: 4098 (init) -> 4096 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Fixed item id mismatch coldcraft:camp_fire: 198 (init) -> 199 (map).
+[13:33:24] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[13:33:24] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[13:33:24] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[13:33:24] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[13:33:24] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[13:33:24] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[13:33:24] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[13:33:24] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLModIdMappingEvent to mod coldcraft
+[13:33:24] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLModIdMappingEvent to mod coldcraft
+[13:33:24] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLModIdMappingEvent to mod minersbasic
+[13:33:24] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLModIdMappingEvent to mod minersbasic
+[13:33:24] [Server thread/INFO] [FML/]: Applying holder lookups
+[13:33:24] [Server thread/INFO] [FML/]: Holder lookups applied
+[13:33:24] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[13:33:24] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[13:33:24] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[13:33:24] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@57c811d7)
+[13:33:24] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@57c811d7)
+[13:33:24] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@57c811d7)
+[13:33:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[13:33:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[13:33:26] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[13:33:26] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[13:33:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[13:33:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[13:33:26] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStartingEvent to mod coldcraft
+[13:33:26] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStartingEvent to mod coldcraft
+[13:33:26] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStartingEvent to mod minersbasic
+[13:33:26] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStartingEvent to mod minersbasic
+[13:33:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[13:33:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[13:33:26] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[13:33:26] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[13:33:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[13:33:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[13:33:26] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStartedEvent to mod coldcraft
+[13:33:26] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStartedEvent to mod coldcraft
+[13:33:26] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStartedEvent to mod minersbasic
+[13:33:26] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStartedEvent to mod minersbasic
+[13:33:28] [Netty Local Client IO #0/TRACE] [FML/]: Handshake channel activating
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: HELLO
+[13:33:28] [Netty Server IO #1/TRACE] [FML/]: Handshake channel activating
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[13:33:28] [Netty Local Client IO #0/INFO] [FML/]: Server protocol version 2
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[13:33:28] [Netty Server IO #1/INFO] [FML/]: Client protocol version 2
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[13:33:28] [Netty Server IO #1/INFO] [FML/]: Client attempting to join with 5 mods : FML@8.0.99.99,Forge@11.14.3.1450,mcp@9.05,coldcraft@0.1.0,minersbasic@1.0-b.327
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[13:33:28] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: DONE
+[13:33:28] [Netty Local Client IO #0/INFO] [FML/]: [Netty Local Client IO #0] Client side modded connection established
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[13:33:28] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[13:33:28] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:33:28] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:30] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:31] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:doStuff:140]: EntityPlayerMP['osoazul1_1'/194, l='New World', x=-880.87, y=64.00, z=35.92]
+[13:33:32] [Server thread/INFO] [STDOUT/]: [com.coldteam.coldcraft.entitydata.PlayerData:biomeTemperature:102]: Cold
+[13:33:34] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[13:33:34] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[13:33:34] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[13:33:34] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[13:33:34] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[13:33:34] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[13:33:34] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStoppingEvent to mod coldcraft
+[13:33:34] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStoppingEvent to mod coldcraft
+[13:33:34] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStoppingEvent to mod minersbasic
+[13:33:34] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStoppingEvent to mod minersbasic
+[13:33:34] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[13:33:35] [Server thread/INFO] [FML/]: Unloading dimension 0
+[13:33:35] [Server thread/INFO] [FML/]: Unloading dimension -1
+[13:33:35] [Server thread/INFO] [FML/]: Unloading dimension 1
+[13:33:35] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[13:33:35] [Server thread/INFO] [FML/]: Applying holder lookups
+[13:33:35] [Server thread/INFO] [FML/]: Holder lookups applied
+[13:33:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[13:33:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[13:33:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[13:33:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[13:33:35] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[13:33:35] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[13:33:35] [Server thread/TRACE] [coldcraft/coldcraft]: Sending event FMLServerStoppedEvent to mod coldcraft
+[13:33:35] [Server thread/TRACE] [coldcraft/coldcraft]: Sent event FMLServerStoppedEvent to mod coldcraft
+[13:33:35] [Server thread/TRACE] [minersbasic/minersbasic]: Sending event FMLServerStoppedEvent to mod minersbasic
+[13:33:35] [Server thread/TRACE] [minersbasic/minersbasic]: Sent event FMLServerStoppedEvent to mod minersbasic
+[13:33:36] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:663]: ---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 4/28/16 1:33 PM
+Description: Unexpected error
+
+java.lang.ClassCastException: net.minecraft.client.entity.EntityPlayerSP cannot be cast to net.minecraft.entity.player.EntityPlayerMP
+	at com.coldteam.coldcraft.client.gui.GuiTempBar.<init>(GuiTempBar.java:25)
+	at com.coldteam.coldcraft.network.ModGuiHandler.getClientGuiElement(ModGuiHandler.java:21)
+	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
+	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:97)
+	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2577)
+	at com.coldteam.coldcraft.items.ModItems$1.onItemRightClick(ModItems.java:23)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:168)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:475)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1600)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2131)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1087)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:376)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.coldteam.coldcraft.client.gui.GuiTempBar.<init>(GuiTempBar.java:25)
+	at com.coldteam.coldcraft.network.ModGuiHandler.getClientGuiElement(ModGuiHandler.java:21)
+	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
+	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:97)
+	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2577)
+	at com.coldteam.coldcraft.items.ModItems$1.onItemRightClick(ModItems.java:23)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:168)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:475)
+	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1600)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['osoazul1_1'/194, l='MpServer', x=-880.87, y=64.00, z=35.92]]
+	Chunk stats: MultiplayerChunkCache: 280, 280
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: -116.00,64.00,232.00 - World: (-116,64,232), Chunk: (at 12,4,8 in -8,14; contains blocks -128,0,224 to -113,255,239), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 64063 game time, 64063 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 103 total; [EntitySkeleton['Skeleton'/257, l='MpServer', x=-942.13, y=73.00, z=55.97], EntitySpider['Spider'/258, l='MpServer', x=-882.94, y=68.00, z=-28.97], EntityChicken['Chicken'/259, l='MpServer', x=-860.34, y=66.00, z=-24.63], EntityItem['item.item.egg'/260, l='MpServer', x=-857.47, y=66.00, z=-26.34], EntityChicken['Chicken'/261, l='MpServer', x=-858.69, y=66.00, z=-25.34], EntityItem['item.item.egg'/262, l='MpServer', x=-851.47, y=65.00, z=-22.47], EntityCreeper['Creeper'/263, l='MpServer', x=-853.13, y=66.00, z=-16.22], EntityZombie['Zombie'/264, l='MpServer', x=-814.59, y=71.00, z=30.47], EntityChicken['Chicken'/265, l='MpServer', x=-815.50, y=76.00, z=48.69], EntityChicken['Chicken'/267, l='MpServer', x=-804.44, y=67.00, z=49.63], EntityChicken['Chicken'/270, l='MpServer', x=-815.84, y=80.00, z=61.34], EntityZombie['Zombie'/271, l='MpServer', x=-859.53, y=58.02, z=108.13], EntityZombie['Zombie'/272, l='MpServer', x=-849.69, y=63.00, z=106.13], EntityChicken['Chicken'/273, l='MpServer', x=-821.47, y=68.00, z=-5.53], EntityItem['item.item.egg'/274, l='MpServer', x=-819.22, y=67.00, z=-0.66], EntityItem['item.item.egg'/275, l='MpServer', x=-820.49, y=66.00, z=-6.19], EntityChicken['Chicken'/276, l='MpServer', x=-817.22, y=69.00, z=88.50], EntityItem['item.item.egg'/277, l='MpServer', x=-823.12, y=82.00, z=80.13], EntityChicken['Chicken'/278, l='MpServer', x=-821.06, y=82.00, z=80.19], EntitySkeleton['Skeleton'/279, l='MpServer', x=-901.91, y=46.00, z=102.66], EntityZombie['Zombie'/280, l='MpServer', x=-935.21, y=69.00, z=72.15], EntityZombie['Zombie'/281, l='MpServer', x=-803.28, y=13.00, z=12.53], EntitySkeleton['Skeleton'/283, l='MpServer', x=-838.81, y=63.00, z=100.66], EntityBat['Bat'/284, l='MpServer', x=-928.18, y=21.05, z=106.58], EntityChicken['Chicken'/285, l='MpServer', x=-868.53, y=69.01, z=-40.38], EntityChicken['Chicken'/287, l='MpServer', x=-811.91, y=69.00, z=-0.31], EntityCreeper['Creeper'/288, l='MpServer', x=-802.59, y=65.00, z=91.97], EntitySkeleton['Skeleton'/290, l='MpServer', x=-944.37, y=73.04, z=51.71], EntitySpider['Spider'/291, l='MpServer', x=-953.38, y=70.00, z=20.34], EntityChicken['Chicken'/292, l='MpServer', x=-892.41, y=70.00, z=-33.63], EntityZombie['Zombie'/294, l='MpServer', x=-893.63, y=70.00, z=-33.16], EntityBat['Bat'/303, l='MpServer', x=-930.80, y=29.94, z=98.49], EntityZombie['Zombie'/304, l='MpServer', x=-933.84, y=32.00, z=101.78], EntitySpider['Spider'/306, l='MpServer', x=-816.53, y=18.01, z=108.83], EntityChicken['Chicken'/309, l='MpServer', x=-816.53, y=69.00, z=-41.38], EntitySkeleton['Skeleton'/310, l='MpServer', x=-823.81, y=67.00, z=-35.66], EntityChicken['Chicken'/311, l='MpServer', x=-819.31, y=67.00, z=-44.44], EntityZombie['Zombie'/321, l='MpServer', x=-820.25, y=64.00, z=112.75], EntityBat['Bat'/335, l='MpServer', x=-956.42, y=31.23, z=106.41], EntityBat['Bat'/336, l='MpServer', x=-950.59, y=32.16, z=101.15], EntityCreeper['Creeper'/337, l='MpServer', x=-950.41, y=67.00, z=-25.00], EntityZombie['Zombie'/338, l='MpServer', x=-946.94, y=67.00, z=-26.50], EntityPlayerSP['osoazul1_1'/194, l='MpServer', x=-880.87, y=64.00, z=35.92], EntityBat['Bat'/196, l='MpServer', x=-864.44, y=50.10, z=20.50], EntityEnderman['Enderman'/197, l='MpServer', x=-868.44, y=49.00, z=19.72], EntityBat['Bat'/198, l='MpServer', x=-866.25, y=56.10, z=29.84], EntityChicken['Chicken'/199, l='MpServer', x=-849.94, y=69.00, z=39.47], EntitySpider['Spider'/200, l='MpServer', x=-868.72, y=33.02, z=61.28], EntitySkeleton['Skeleton'/201, l='MpServer', x=-865.97, y=32.00, z=52.50], EntitySkeleton['Skeleton'/202, l='MpServer', x=-869.25, y=32.02, z=58.38], EntityItem['item.item.egg'/203, l='MpServer', x=-869.41, y=64.00, z=59.88], EntityZombie['Zombie'/204, l='MpServer', x=-861.47, y=47.00, z=22.75], EntityBat['Bat'/205, l='MpServer', x=-863.75, y=54.10, z=20.25], EntityBat['Bat'/206, l='MpServer', x=-862.91, y=55.10, z=26.31], EntityCreeper['Creeper'/207, l='MpServer', x=-859.69, y=34.00, z=58.03], EntityCreeper['Creeper'/208, l='MpServer', x=-861.00, y=33.00, z=56.41], EntityCreeper['Creeper'/209, l='MpServer', x=-862.00, y=33.00, z=53.41], EntityBat['Bat'/210, l='MpServer', x=-875.50, y=30.98, z=11.40], EntityItem['item.item.egg'/211, l='MpServer', x=-865.88, y=64.00, z=1.19], EntityChicken['Chicken'/212, l='MpServer', x=-847.63, y=70.00, z=33.69], EntityChicken['Chicken'/213, l='MpServer', x=-844.00, y=72.00, z=39.59], EntityChicken['Chicken'/214, l='MpServer', x=-847.34, y=69.00, z=46.59], EntityItem['item.item.egg'/215, l='MpServer', x=-837.75, y=69.00, z=46.44], EntityItem['item.item.egg'/216, l='MpServer', x=-848.38, y=70.00, z=33.92], EntityBat['Bat'/217, l='MpServer', x=-880.57, y=37.07, z=74.01], EntityChicken['Chicken'/218, l='MpServer', x=-869.31, y=69.00, z=64.41], EntityZombie['Zombie'/219, l='MpServer', x=-901.84, y=13.00, z=31.56], EntityCreeper['Creeper'/220, l='MpServer', x=-900.53, y=16.00, z=28.00], EntityZombie['Zombie'/221, l='MpServer', x=-910.84, y=46.00, z=21.34], EntitySkeleton['Skeleton'/222, l='MpServer', x=-902.09, y=50.00, z=31.50], EntitySkeleton['Skeleton'/223, l='MpServer', x=-898.44, y=48.00, z=30.00], EntityZombie['Zombie'/224, l='MpServer', x=-883.50, y=46.00, z=15.50], EntityCreeper['Creeper'/225, l='MpServer', x=-891.72, y=46.00, z=15.47], EntityBat['Bat'/226, l='MpServer', x=-880.25, y=56.10, z=4.75], EntityCreeper['Creeper'/227, l='MpServer', x=-887.94, y=51.00, z=3.63], EntityItem['item.item.egg'/228, l='MpServer', x=-850.94, y=65.00, z=3.56], EntityChicken['Chicken'/229, l='MpServer', x=-851.22, y=65.00, z=3.50], EntityItem['item.item.egg'/230, l='MpServer', x=-859.56, y=64.00, z=10.47], EntityChicken['Chicken'/231, l='MpServer', x=-852.34, y=67.00, z=9.47], EntityChicken['Chicken'/232, l='MpServer', x=-861.56, y=64.00, z=10.28], EntityChicken['Chicken'/233, l='MpServer', x=-834.78, y=64.00, z=59.50], EntityItem['item.item.egg'/234, l='MpServer', x=-840.03, y=68.80, z=56.02], EntityChicken['Chicken'/235, l='MpServer', x=-840.34, y=70.00, z=53.69], EntityChicken['Chicken'/236, l='MpServer', x=-836.97, y=69.02, z=48.50], EntityZombie['Zombie'/237, l='MpServer', x=-848.41, y=34.00, z=65.97], EntitySkeleton['Skeleton'/238, l='MpServer', x=-857.72, y=63.00, z=75.16], EntityChicken['Chicken'/239, l='MpServer', x=-898.38, y=63.00, z=69.34], EntityItem['item.item.egg'/240, l='MpServer', x=-899.06, y=63.00, z=68.50], EntityZombie['Zombie'/241, l='MpServer', x=-820.50, y=78.00, z=40.50], EntityChicken['Chicken'/242, l='MpServer', x=-824.53, y=77.00, z=45.53], EntityBat['Bat'/243, l='MpServer', x=-893.45, y=12.23, z=97.49], EntitySkeleton['Skeleton'/244, l='MpServer', x=-922.72, y=10.00, z=56.31], EntityWitch['Witch'/245, l='MpServer', x=-916.50, y=14.00, z=53.50], EntityCreeper['Creeper'/246, l='MpServer', x=-917.50, y=14.00, z=51.50], EntityZombie['Zombie'/247, l='MpServer', x=-923.63, y=10.00, z=56.66], EntityBat['Bat'/248, l='MpServer', x=-923.77, y=10.31, z=55.54], EntitySkeleton['Skeleton'/249, l='MpServer', x=-920.91, y=24.00, z=17.38], EntitySpider['Spider'/250, l='MpServer', x=-887.22, y=53.00, z=-1.34], EntitySkeleton['Skeleton'/251, l='MpServer', x=-892.28, y=68.00, z=-10.31], EntityZombie['Zombie'/252, l='MpServer', x=-859.50, y=66.00, z=-15.50], EntityChicken['Chicken'/253, l='MpServer', x=-829.59, y=71.00, z=6.44], EntityChicken['Chicken'/254, l='MpServer', x=-821.53, y=69.00, z=3.31], EntityItem['item.item.egg'/255, l='MpServer', x=-830.47, y=70.00, z=7.88]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:392)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2614)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:405)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 4.4.0-21-generic
+	Java Version: 1.8.0_92, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 331875320 bytes (316 MB) / 823656448 bytes (785 MB) up to 1791492096 bytes (1708 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1450 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHIJAAAA	Forge{11.14.3.1450} [Minecraft Forge] (forgeSrc-1.8-11.14.3.1450.jar) 
+	UCHIJAAAA	coldcraft{0.1.0} [Coldcraft Survival Mod] (bin) 
+	UCHIJAAAA	minersbasic{1.0-b.327} [Miner's Basic] (Minersbasic-1.0-b.327-mc1.8-deobf.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 11.2.0' Renderer: 'Mesa DRI Intel(R) Ivybridge Mobile '
+	Launched Version: 1.8
+	LWJGL: 2.9.1
+	OpenGL: Mesa DRI Intel(R) Ivybridge Mobile  GL version 3.0 Mesa 11.2.0, Intel Open Source Technology Center
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+[13:33:36] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:663]: #@!@# Game crashed! Crash report saved to: #@!@# /home/miguel/git/Coldcraft/Coldcraft/./crash-reports/crash-2016-04-28_13.33.36-client.txt

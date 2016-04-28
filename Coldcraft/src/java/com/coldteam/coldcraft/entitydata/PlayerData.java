@@ -10,6 +10,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.IExtendedEntityProperties;
 
 public class PlayerData implements IExtendedEntityProperties{
@@ -24,6 +25,8 @@ public class PlayerData implements IExtendedEntityProperties{
 	private double onCampTemp;
 	private double tickChange = 0.0;
 	private boolean wasCampCalled;
+	private BiomeGenBase biome;
+	private float biomeTemp;
 	
 
 	// CONSTRUCTOR, GETTER, REGISTER ==========================================
@@ -76,46 +79,75 @@ public class PlayerData implements IExtendedEntityProperties{
 	//When near a camp fire
 	public void campTemperature(){
 		if(this.onCampTemp < 6.0){
-			System.out.println("Camping");
-			this.onCampTemp += 0.001;
-			this.setTemperature(this.getTemperature()+0.001);
 			this.wasCampCalled = true;
 		}
 	}
 	
 	//Biome Effect
 	public void biomeTemperature(){
-		float biomeTemp = this.player.worldObj.getBiomeGenForCoords(this.pos).getFloatTemperature(this.pos);
-		double objectiveTemp, rate;
+		double objectiveTemp;
 		
-		if(biomeTemp < 0.5){
+		if(this.biomeTemp < 0.5){
 			objectiveTemp = 29.0;
-			if(biomeTemp <=0){
-				rate = 8000;
+			if(this.temperature == objectiveTemp){
+				this.tickChange += 0;
 			}
 			else{
-				rate = 1600;
+				if(this.biomeTemp <=0){
+					this.tickChange -= 0.005;
+					System.out.println("Super cold");
+				}
+				else{
+					this.tickChange -= 0.001;
+					System.out.println("Cold");
+				}
 			}
 		}
-		else if(0.5 < biomeTemp && biomeTemp <= 1.2){
+		else if(0.5 < this.biomeTemp && this.biomeTemp <= 1.2){
 			objectiveTemp = 37.0;
-			rate = 10000;
+			if(this.temperature == objectiveTemp){
+				this.tickChange += 0;
+			}
+			else{
+				if(this.temperature < objectiveTemp){
+					this.tickChange += 0.002;
+					System.out.println("From cold");
+				}
+				else{
+					this.tickChange -= 0.002;
+					System.out.println("From hot");
+				}
+			}
 		}
 		else{
 			objectiveTemp = 43.0;
-			rate = 3000;
+			if(this.temperature == objectiveTemp){
+				this.tickChange += 0;
+			}
+			else{
+				this.tickChange += 0.005;
+				System.out.println("Hot");
+			}
 		}
-		this.tickChange += (objectiveTemp - this.temperature)/rate;
 	}
 	
 	//Loop
 	public void doStuff(){
 		this.tickChange = 0;
+		this.biome = this.player.worldObj.getBiomeGenForCoords(this.pos);
+		this.biomeTemp = this.biome.getFloatTemperature(this.pos);
+		
+		System.out.println(this.player);
+
 		if(!this.wasCampCalled && this.onCampTemp > 0.0){
 			this.onCampTemp -= 0.001;
 			this.tickChange -= 0.001;
+		}else{
+			this.onCampTemp += 0.001;
+			this.tickChange += 0.001;
 		}
-		//this.biomeTemperature();
+		
+		this.biomeTemperature();
 		this.setTemperature(this.getTemperature()+this.tickChange);
 		this.wasCampCalled = false;
 	}
@@ -128,6 +160,18 @@ public class PlayerData implements IExtendedEntityProperties{
 	
 	public double getTemperature() {
 		return this.temperature;
+	}
+	
+	public BiomeGenBase getBiome(){
+		return this.biome;
+	}
+	
+	public float getBiomeTemp(){
+		return this.biomeTemp;
+	}
+	
+	public boolean getCamp(){
+		return this.wasCampCalled;
 	}
 
 	public void syncTemperature() {

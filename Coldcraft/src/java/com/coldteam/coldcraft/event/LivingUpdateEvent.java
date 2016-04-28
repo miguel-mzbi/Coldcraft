@@ -12,7 +12,9 @@ public class LivingUpdateEvent {
 	public void onEntityUpdate(LivingEvent.LivingUpdateEvent e) {
 		if(e.entityLiving instanceof EntityPlayer){
 			EntityPlayer entityPlayer = (EntityPlayer) e.entityLiving;
-			PlayerData.get(entityPlayer).doStuff();
+			if(PlayerData.get(entityPlayer).isServerSide()){
+				PlayerData.get(entityPlayer).doStuff();
+			}
 		}
 	}
 }
