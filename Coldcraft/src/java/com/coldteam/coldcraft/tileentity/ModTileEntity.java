@@ -20,11 +20,11 @@ public class ModTileEntity extends TileEntity implements IUpdatePlayerListBox{
 		AxisAlignedBB aabb = AxisAlignedBB.fromBounds(xCoord-4, yCoord-4, zCoord-4, xCoord+4, yCoord+4, zCoord+4);
 		
 		List<?> presentEnt = worldObj.getEntitiesWithinAABB(EntityPlayer.class, aabb);
-		
 		if(!presentEnt.isEmpty()){
 			EntityPlayer player = (EntityPlayer) presentEnt.get(0);
-			PlayerData.get(player).campTemperature();
+			if (PlayerData.get(player).isServerSide()){
+				PlayerData.get(player).setCamp(true);
+			}
 		}
-		
 	}
 }
