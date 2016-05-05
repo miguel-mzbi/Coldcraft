@@ -1,180 +1,182 @@
-[13:07:59] [main/INFO]: Logging in with username & password
-[13:08:03] [Client thread/INFO]: Setting user: osoazul1_1
-[13:08:07] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:08:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[13:08:11] [Client thread/ERROR]: Couldn't initialize twitch stream
-[13:08:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:08:11] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[13:08:11] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:08:11] [Thread-8/INFO]: OpenAL initialized.
-[13:08:12] [Sound Library Loader/INFO]: Sound engine started
-[13:08:14] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:08:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
-[13:08:15] [Client thread/INFO]: SoundSystem shutting down...
-[13:08:15] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[13:08:15] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:08:15] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[13:08:15] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:08:15] [Thread-10/INFO]: OpenAL initialized.
-[13:08:16] [Sound Library Loader/INFO]: Sound engine started
-[13:08:16] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:08:42] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[13:08:42] [Server thread/INFO]: Generating keypair
-[13:08:43] [Server thread/INFO]: Preparing start region for level 0
-[13:08:44] [Server thread/INFO]: Preparing spawn area: 61%
-[13:08:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:08:45] [Server thread/INFO]: osoazul1_1[local:E:010f72ed] logged in with entity id 322 at (292.79886685887766, 87.26180099907444, 203.4038352033265)
-[13:08:45] [Server thread/INFO]: osoazul1_1 joined the game
-[13:08:51] [Server thread/INFO]: Saving and pausing game...
-[13:08:51] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:52] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:52] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:52] [Server thread/INFO]: Saving and pausing game...
-[13:08:52] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:52] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:52] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:53] [Server thread/INFO]: Saving and pausing game...
-[13:08:53] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:53] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:53] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:54] [Server thread/INFO]: Saving and pausing game...
-[13:08:54] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:54] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:54] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:55] [Server thread/INFO]: Saving and pausing game...
-[13:08:55] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:55] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:55] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:55] [Server thread/INFO]: Saving and pausing game...
-[13:08:55] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:56] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:56] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:56] [Server thread/INFO]: Saving and pausing game...
-[13:08:56] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:56] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:56] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:57] [Server thread/INFO]: Saving and pausing game...
-[13:08:57] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:57] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:57] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:08:58] [Server thread/INFO]: Saving and pausing game...
-[13:08:58] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:08:58] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:08:58] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:00] [Server thread/INFO]: Saving and pausing game...
-[13:09:00] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:01] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:01] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:01] [Server thread/INFO]: Saving and pausing game...
-[13:09:01] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:01] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:01] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:02] [Server thread/INFO]: Saving and pausing game...
-[13:09:02] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:02] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:02] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:03] [Server thread/INFO]: Saving and pausing game...
-[13:09:03] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:03] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:03] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:04] [Server thread/INFO]: Saving and pausing game...
-[13:09:04] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:04] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:04] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:05] [Server thread/INFO]: Saving and pausing game...
-[13:09:05] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:05] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:05] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:05] [Server thread/INFO]: Saving and pausing game...
-[13:09:05] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:06] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:06] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:08] [Server thread/INFO]: Saving and pausing game...
-[13:09:08] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:08] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:08] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:09] [Server thread/INFO]: Saving and pausing game...
-[13:09:09] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:09] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:09] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:10] [Server thread/INFO]: Saving and pausing game...
-[13:09:10] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:10] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:10] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:11] [Server thread/INFO]: Saving and pausing game...
-[13:09:11] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:11] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:11] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:12] [Server thread/INFO]: Saving and pausing game...
-[13:09:12] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:12] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:12] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:12] [Server thread/INFO]: Saving and pausing game...
-[13:09:12] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:13] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:13] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:13] [Server thread/INFO]: Saving and pausing game...
-[13:09:13] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:13] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:13] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:14] [Server thread/INFO]: Saving and pausing game...
-[13:09:14] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:14] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:14] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:15] [Server thread/INFO]: Saving and pausing game...
-[13:09:15] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:15] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:15] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:17] [Server thread/INFO]: Saving and pausing game...
-[13:09:17] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:17] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:17] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:18] [Server thread/INFO]: Saving and pausing game...
-[13:09:18] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:18] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:18] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:19] [Server thread/INFO]: Saving and pausing game...
-[13:09:19] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:19] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:19] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:20] [Server thread/INFO]: Saving and pausing game...
-[13:09:20] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:20] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:20] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:21] [Server thread/INFO]: Saving and pausing game...
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:21] [Server thread/INFO]: Saving and pausing game...
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:21] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:22] [Server thread/INFO]: Saving and pausing game...
-[13:09:22] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:22] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:22] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:27] [Server thread/INFO]: Saving and pausing game...
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:27] [Server thread/INFO]: Saving and pausing game...
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:27] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:28] [Server thread/INFO]: Saving and pausing game...
-[13:09:28] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:28] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:28] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:29] [Server thread/INFO]: Saving and pausing game...
-[13:09:29] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:29] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:29] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:30] [Server thread/INFO]: Stopping server
-[13:09:30] [Server thread/INFO]: Saving players
-[13:09:30] [Server thread/INFO]: Saving worlds
-[13:09:30] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Overworld
-[13:09:30] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/Nether
-[13:09:30] [Server thread/INFO]: Saving chunks for level 'New Worldawfjoiaefsafeawfesaf'/The End
-[13:09:32] [Client thread/INFO]: Stopping!
-[13:09:32] [Client thread/INFO]: SoundSystem shutting down...
-[13:09:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:59:16] [main/INFO]: Logging in with username & password
+[19:59:19] [Client thread/INFO]: Setting user: osoazul1_1
+[19:59:23] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:59:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[19:59:28] [Client thread/ERROR]: Couldn't initialize twitch stream
+[19:59:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:59:28] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[19:59:28] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:59:28] [Thread-8/INFO]: OpenAL initialized.
+[19:59:28] [Sound Library Loader/INFO]: Sound engine started
+[19:59:30] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:59:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Coldcraft Survival Mod, FMLFileResourcePack:Miner's Basic
+[19:59:32] [Client thread/INFO]: SoundSystem shutting down...
+[19:59:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:59:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:59:32] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[19:59:32] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:59:32] [Thread-10/INFO]: OpenAL initialized.
+[19:59:32] [Sound Library Loader/INFO]: Sound engine started
+[19:59:33] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:59:39] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[19:59:39] [Server thread/INFO]: Generating keypair
+[19:59:40] [Server thread/INFO]: Preparing start region for level 0
+[19:59:41] [Server thread/INFO]: Preparing spawn area: 37%
+[19:59:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:59:42] [Server thread/INFO]: osoazul1_1[local:E:635f2bbf] logged in with entity id 294 at (-248.25637466439414, 64.0, 250.00909649267226)
+[19:59:42] [Server thread/INFO]: osoazul1_1 joined the game
+[19:59:46] [Server thread/INFO]: Saving and pausing game...
+[19:59:46] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:46] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:46] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2425ms behind, skipping 48 tick(s)
+[19:59:48] [Server thread/INFO]: Saving and pausing game...
+[19:59:48] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:48] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:48] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:49] [Server thread/INFO]: Saving and pausing game...
+[19:59:49] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:49] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:49] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:49] [Server thread/INFO]: Saving and pausing game...
+[19:59:49] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:50] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:50] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:50] [Server thread/INFO]: Saving and pausing game...
+[19:59:50] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:50] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:50] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:51] [Server thread/INFO]: Saving and pausing game...
+[19:59:51] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:51] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:51] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:57] [Server thread/INFO]: Saving and pausing game...
+[19:59:57] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:57] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:57] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[19:59:59] [Server thread/INFO]: Saving and pausing game...
+[19:59:59] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[19:59:59] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[19:59:59] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:00] [Server thread/INFO]: Saving and pausing game...
+[20:00:00] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:00] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:00] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:01] [Server thread/INFO]: Saving and pausing game...
+[20:00:01] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:01] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:01] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:02] [Server thread/INFO]: Saving and pausing game...
+[20:00:02] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:02] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:02] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:03] [Server thread/INFO]: Saving and pausing game...
+[20:00:03] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:03] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:03] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:06] [Server thread/INFO]: Saving and pausing game...
+[20:00:06] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:06] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:06] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:07] [Server thread/INFO]: Saving and pausing game...
+[20:00:07] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:07] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:07] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:08] [Server thread/INFO]: Saving and pausing game...
+[20:00:08] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:08] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:08] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:09] [Server thread/INFO]: Saving and pausing game...
+[20:00:09] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:09] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:09] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:10] [Server thread/INFO]: Saving and pausing game...
+[20:00:10] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:10] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:10] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:11] [Server thread/INFO]: Saving and pausing game...
+[20:00:11] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:11] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:11] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:12] [Server thread/INFO]: Saving and pausing game...
+[20:00:12] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:12] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:12] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:14] [Server thread/INFO]: Saving and pausing game...
+[20:00:14] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:14] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:14] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:15] [Server thread/INFO]: Saving and pausing game...
+[20:00:15] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:15] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:15] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:16] [Server thread/INFO]: Saving and pausing game...
+[20:00:16] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:16] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:16] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:17] [Server thread/INFO]: Saving and pausing game...
+[20:00:17] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:17] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:17] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:18] [Server thread/INFO]: Saving and pausing game...
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:18] [Server thread/INFO]: Saving and pausing game...
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:18] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:19] [Server thread/INFO]: Saving and pausing game...
+[20:00:19] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:19] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:19] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:21] [Server thread/INFO]: Saving and pausing game...
+[20:00:21] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:21] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:21] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:00:24] [Server thread/INFO]: Stopping server
+[20:00:24] [Server thread/INFO]: Saving players
+[20:00:24] [Server thread/INFO]: Saving worlds
+[20:00:24] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Overworld
+[20:00:24] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/Nether
+[20:00:24] [Server thread/INFO]: Saving chunks for level 'New Worlduiphuhuiphiuphuo'/The End
+[20:01:32] [Client thread/INFO]: Deleting level New Worlduiphuhuiphiuphuo
+[20:01:32] [Client thread/INFO]: Attempt 1...
+[20:01:40] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[20:01:40] [Server thread/INFO]: Generating keypair
+[20:01:40] [Server thread/INFO]: Converting map!
+[20:01:40] [Server thread/INFO]: Scanning folders...
+[20:01:40] [Server thread/INFO]: Total conversion count is 0
+[20:01:40] [Server thread/INFO]: Preparing start region for level 0
+[20:01:41] [Server thread/INFO]: Preparing spawn area: 6%
+[20:01:42] [Server thread/INFO]: Preparing spawn area: 11%
+[20:01:43] [Server thread/INFO]: Preparing spawn area: 19%
+[20:01:44] [Server thread/INFO]: Preparing spawn area: 30%
+[20:01:45] [Server thread/INFO]: Preparing spawn area: 41%
+[20:01:46] [Server thread/INFO]: Preparing spawn area: 53%
+[20:01:47] [Server thread/INFO]: Preparing spawn area: 64%
+[20:01:48] [Server thread/INFO]: Preparing spawn area: 78%
+[20:01:49] [Server thread/INFO]: Preparing spawn area: 92%
+[20:01:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:01:50] [Server thread/INFO]: osoazul1_1[local:E:fc47719e] logged in with entity id 2109 at (-214.5, 64.0, 255.5)
+[20:01:50] [Server thread/INFO]: osoazul1_1 joined the game
+[20:01:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3149ms behind, skipping 62 tick(s)
+[20:02:00] [Server thread/INFO]: osoazul1_1 has just earned the achievement [Taking Inventory]
+[20:02:00] [Client thread/INFO]: [CHAT] osoazul1_1 has just earned the achievement [Taking Inventory]
+[20:02:09] [Server thread/INFO]: Saving and pausing game...
+[20:02:09] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Overworld
+[20:02:10] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Nether
+[20:02:10] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/The End
+[20:02:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4807ms behind, skipping 96 tick(s)
+[20:02:13] [Server thread/INFO]: Saving and pausing game...
+[20:02:13] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Overworld
+[20:02:13] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Nether
+[20:02:13] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/The End
+[20:02:14] [Server thread/INFO]: Saving and pausing game...
+[20:02:14] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Overworld
+[20:02:14] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Nether
+[20:02:14] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/The End
+[20:02:24] [Server thread/INFO]: Saving and pausing game...
+[20:02:24] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Overworld
+[20:02:24] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/Nether
+[20:02:24] [Server thread/INFO]: Saving chunks for level 'New Worldiphiopipohuiuuuu'/The End

@@ -13,33 +13,24 @@ public class PacketSyncTemperature implements IMessage {
 
 	private double temperature;
 	private double generalTemp;
-	/*private float biomeTemp;
-	private boolean camping;*/
 
     public PacketSyncTemperature() {}
 
-    public PacketSyncTemperature(double temp, double general/*, float biome, boolean camp*/) {
+    public PacketSyncTemperature(double temp, double general) {
         this.temperature = temp;
         this.generalTemp = general;
-        /*this.biomeTemp = biome;
-        this.camping = camp;*/
     }
 
     @Override
     public void fromBytes(ByteBuf buf) {
         this.temperature = buf.readDouble();
-        this.generalTemp = buf.readDouble();/*
-        this.biomeTemp = buf.readFloat();
-        this.camping = buf.readBoolean();*/
-
+        this.generalTemp = buf.readDouble();
     }
 
     @Override
     public void toBytes(ByteBuf buf) {
         buf.writeDouble(this.temperature);
-        buf.writeDouble(this.generalTemp);/*
-        buf.writeFloat(this.biomeTemp);
-        buf.writeBoolean(this.camping);*/
+        buf.writeDouble(this.generalTemp);
     }
 
     // ========================================================================
@@ -53,8 +44,6 @@ public class PacketSyncTemperature implements IMessage {
                 public void run() {
                     PlayerData.get(player).setTemperature(msg.temperature);
                     PlayerData.get(player).setGeneralTemp(msg.generalTemp);
-                    /*PlayerData.get(player).setBiomeTemp(msg.biomeTemp);
-                    PlayerData.get(player).setCamp(msg.camping);*/
                 }
             });
             return null;

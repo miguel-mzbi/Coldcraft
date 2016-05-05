@@ -1,6 +1,7 @@
 package com.coldteam.coldcraft.entitydata;
 
 import com.coldteam.coldcraft.Main;
+import com.coldteam.coldcraft.network.packets.PacketSyncOnCampTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncPlayerData;
 import com.coldteam.coldcraft.network.packets.PacketSyncTemperature;
 
@@ -15,7 +16,7 @@ import net.minecraftforge.common.IExtendedEntityProperties;
 
 public class PlayerData implements IExtendedEntityProperties{
 
-	private static final String identifier = "coldcraftPlayerData";
+	private static final String identifier = "coldcraftTemperature";
 
 	// PROPERTIES =============================================================
 
@@ -28,7 +29,6 @@ public class PlayerData implements IExtendedEntityProperties{
 	private boolean wasCampCalled;
 	private BiomeGenBase biome;
 	private float biomeTemp;
-
 	private int previousType;
 	
 
@@ -39,7 +39,7 @@ public class PlayerData implements IExtendedEntityProperties{
 		this.temperature = 37.0;
 		this.generalTemp = 37.0;
 		this.wasCampCalled = false;
-		this.biomeTemp = 1;
+		this.onCampTemp = 0.0;
 	}
 
 	public static PlayerData get(EntityPlayer player) {
@@ -60,6 +60,7 @@ public class PlayerData implements IExtendedEntityProperties{
 	public void saveNBTData(NBTTagCompound nbt) {
 		nbt.setDouble("temperature", this.getTemperature());
 		nbt.setDouble("generalTemp", this.getGeneralTemp());
+		nbt.setDouble("onCampTemp", this.getOnCampTemp());
 
 	}
 
@@ -76,6 +77,9 @@ public class PlayerData implements IExtendedEntityProperties{
 		if (nbt.hasKey("generalTemp")){
 			this.setGeneralTemp(nbt.getDouble("generalTemp"));
 		}
+		if (nbt.hasKey("onCampTemp")){
+			this.setOnCampTemp(nbt.getDouble("onCampTemp"));
+		}
 	}
 
 	@Override
@@ -85,7 +89,8 @@ public class PlayerData implements IExtendedEntityProperties{
 
 	//Biome Effect
 	public void biomeTemperature(){
-		if(this.isServerSide()){
+		if(!this.isServerSide()){
+			this.tickChange = 0;
 			double objectiveTemp;
 			
 			if(this.biomeTemp < 0.5){
@@ -149,6 +154,8 @@ public class PlayerData implements IExtendedEntityProperties{
 					System.out.println("Hot");
 				}
 				else{
+					this.tickChange -= this.generalTemp - 43.0;
+					this.generalTemp = 43.0;
 					System.out.println("Hot error");
 				}
 			}
@@ -156,12 +163,12 @@ public class PlayerData implements IExtendedEntityProperties{
 		}
 	}
 	
+	//Camp Effect
 	public void campStuff(){
-		if(this.isServerSide()){
+		if(!this.isServerSide()){
 			if(!this.wasCampCalled && this.onCampTemp > 0.0){
 				System.out.println("The camp is being turned off");
-				this.onCampTemp -= 0.0015;
-				this.tickChange -= 0.0015;
+				this.onCampTemp -= 0.0011;
 			}
 			else if (!this.wasCampCalled && this.onCampTemp <= 0){
 				System.out.println("The camp isn't there");
@@ -169,11 +176,11 @@ public class PlayerData implements IExtendedEntityProperties{
 			}
 			else if(this.wasCampCalled && this.onCampTemp < 6.0){
 				System.out.println("With the camp");
-				this.onCampTemp += 0.0015;
-				this.tickChange += 0.0015;
+				this.onCampTemp += 0.0011;
 			}
-			else if(this.wasCampCalled && this.onCampTemp == 6.0){
+			else if(this.wasCampCalled && this.onCampTemp >= 6.0){
 				System.out.println("The camp is full");
+				this.onCampTemp = 6.0;
 			}
 			else{
 				System.out.println("Error");
@@ -183,7 +190,7 @@ public class PlayerData implements IExtendedEntityProperties{
 	
 	//Loop
 	public void doStuff(){
-		if(this.isServerSide()){
+		if(!this.isServerSide()){
 			this.tickChange = 0;
 			this.pos = this.player.getPosition();
 			BiomeGenBase tempBiome = this.player.worldObj.getBiomeGenForCoords(this.pos);
@@ -194,7 +201,7 @@ public class PlayerData implements IExtendedEntityProperties{
 			}
 					
 			this.biomeTemperature();
-			//this.campStuff();
+			this.campStuff();
 			
 			this.setTemperature(this.getTemperature()+this.tickChange);
 			System.out.println("Temp: "+this.temperature+ "-----General: "+this.generalTemp);
@@ -221,14 +228,6 @@ public class PlayerData implements IExtendedEntityProperties{
 		return this.generalTemp;
 	}
 	
-	public void setBiomeTemp(float d){
-		this.biomeTemp = d;
-	}
-	
-	public float getBiomeTemp(){
-		return this.biomeTemp;
-	}
-	
 	public void setCamp(boolean d){
 		this.wasCampCalled = d;
 	}
@@ -236,10 +235,25 @@ public class PlayerData implements IExtendedEntityProperties{
 	public boolean getCamp(){
 		return this.wasCampCalled;
 	}
+	
+	public void setOnCampTemp(double d){
+		this.onCampTemp = d;
+		this.syncOnCampTemperature();
+	}
+	
+	public double getOnCampTemp(){
+		return this.onCampTemp;
+	}
 
 	public void syncTemperature() {
 	    if (this.isServerSide()){
-	    	Main.packetHandler.sendTo(new PacketSyncTemperature(this.getTemperature(), this.getGeneralTemp()/*, this.getBiomeTemp(), this.getCamp()*/), (EntityPlayerMP) this.player);
+	    	Main.packetHandler.sendTo(new PacketSyncTemperature(this.getTemperature(), this.getGeneralTemp()), (EntityPlayerMP) this.player);
+	    }
+	}
+	
+	public void syncOnCampTemperature() {
+	    if (this.isServerSide()){
+	    	Main.packetHandler.sendTo(new PacketSyncOnCampTemp(this.getOnCampTemp()), (EntityPlayerMP) this.player);
 	    }
 	}
 

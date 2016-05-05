@@ -22,7 +22,7 @@ public class ModTileEntity extends TileEntity implements IUpdatePlayerListBox{
 		List<?> presentEnt = worldObj.getEntitiesWithinAABB(EntityPlayer.class, aabb);
 		if(!presentEnt.isEmpty()){
 			EntityPlayer player = (EntityPlayer) presentEnt.get(0);
-			if (PlayerData.get(player).isServerSide()){
+			if (!PlayerData.get(player).isServerSide()){
 				PlayerData.get(player).setCamp(true);
 			}
 		}

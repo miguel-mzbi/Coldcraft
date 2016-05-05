@@ -38,7 +38,7 @@ public class GuiTempBar extends GuiScreen {
 	
 	@Override
 	public void updateScreen() {
-		PlayerData.get(this.entityPlayer).requestSyncAll();
+		//PlayerData.get(this.entityPlayer).requestSyncAll();
 		temp = "Temperature considering camp: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getTemperature());
 		generalTemp = "Current temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getGeneralTemp());
 		super.updateScreen();
