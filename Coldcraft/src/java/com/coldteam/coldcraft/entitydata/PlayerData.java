@@ -168,7 +168,8 @@ public class PlayerData implements IExtendedEntityProperties{
 		if(!this.isServerSide()){
 			if(!this.wasCampCalled && this.onCampTemp > 0.0){
 				System.out.println("The camp is being turned off");
-				this.onCampTemp -= 0.0011;
+				this.setOnCampTemp(this.onCampTemp - 0.0011);
+				this.tickChange -= 0.0011;
 			}
 			else if (!this.wasCampCalled && this.onCampTemp <= 0){
 				System.out.println("The camp isn't there");
@@ -176,7 +177,8 @@ public class PlayerData implements IExtendedEntityProperties{
 			}
 			else if(this.wasCampCalled && this.onCampTemp < 6.0){
 				System.out.println("With the camp");
-				this.onCampTemp += 0.0011;
+				this.setOnCampTemp(this.onCampTemp + 0.0011);
+				this.tickChange += 0.0011;
 			}
 			else if(this.wasCampCalled && this.onCampTemp >= 6.0){
 				System.out.println("The camp is full");
