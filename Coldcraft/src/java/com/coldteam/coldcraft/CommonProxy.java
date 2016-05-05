@@ -6,6 +6,8 @@ import com.coldteam.coldcraft.event.EventHandlerCommon;
 import com.coldteam.coldcraft.event.LivingUpdateEvent;
 import com.coldteam.coldcraft.items.ModItems;
 import com.coldteam.coldcraft.network.ModGuiHandler;
+import com.coldteam.coldcraft.network.packets.PacketSyncBiomeTemp;
+import com.coldteam.coldcraft.network.packets.PacketSyncOnCampTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncPlayerData;
 import com.coldteam.coldcraft.network.packets.PacketSyncTemperature;
 import com.coldteam.coldcraft.tileentity.ModTileEntities;
@@ -31,6 +33,9 @@ public class CommonProxy {
 	    Main.packetHandler = MinersbasicAPI.createPacketHandler(Main.MODID);
 	    Main.packetHandler.registerBidiPacket(PacketSyncPlayerData.class, new PacketSyncPlayerData.Handler());
 		Main.packetHandler.registerPacket(PacketSyncTemperature.class, new PacketSyncTemperature.Handler(), Side.CLIENT);
+		Main.packetHandler.registerPacket(PacketSyncBiomeTemp.class, new PacketSyncBiomeTemp.Handler(), Side.CLIENT);
+		Main.packetHandler.registerPacket(PacketSyncOnCampTemp.class, new PacketSyncOnCampTemp.Handler(), Side.CLIENT);
+
 	
 		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent());
 		MinecraftForge.EVENT_BUS.register(new EventHandlerCommon());

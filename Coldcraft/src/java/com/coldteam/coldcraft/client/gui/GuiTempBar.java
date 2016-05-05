@@ -14,6 +14,7 @@ public class GuiTempBar extends GuiScreen {
 	private GuiButton a;
 	private EntityPlayer entityPlayer;
 	private String generalTemp;
+	private String biomeTemp;
 	
 	public GuiTempBar(EntityPlayer p) {
 		this.entityPlayer = p;
@@ -41,6 +42,7 @@ public class GuiTempBar extends GuiScreen {
 		//PlayerData.get(this.entityPlayer).requestSyncAll();
 		temp = "Temperature considering camp: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getTemperature());
 		generalTemp = "Current temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getGeneralTemp());
+		biomeTemp = "Current biome temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getBiomeTemp());
 		super.updateScreen();
 	}
 
@@ -49,6 +51,7 @@ public class GuiTempBar extends GuiScreen {
 		this.drawDefaultBackground();
 		this.fontRendererObj.drawString(temp, width / 2 - 80, 50, 0xFFFFFF);
 		this.fontRendererObj.drawString(generalTemp, width / 2 - 80, 70, 0xFFFFFF);
+		this.fontRendererObj.drawString(biomeTemp, width / 2 - 80, 90, 0xFFFFFF);
 		super.drawScreen(mouseX, mouseY, partialTicks);
 	}
 	

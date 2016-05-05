@@ -22,7 +22,7 @@ public final class ModItems {
 		        }
 		        return itemStackIn;
 		    }
-		}.setUnlocalizedName("gui_item").setCreativeTab(CreativeTabs.tabMisc), "packetitem");
+		}.setUnlocalizedName("termometer").setCreativeTab(CreativeTabs.tabMisc), "termometer");
 		
 	}
 }
