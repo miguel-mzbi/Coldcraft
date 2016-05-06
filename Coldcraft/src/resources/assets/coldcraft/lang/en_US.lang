@@ -2,3 +2,6 @@
 
 tile.camp_fire.name=Campfire
 item.termometer.name=Termometer
+item.coat_coat.name=Winter Coat
+item.coat_boots.name=Winter Boots
+item.winter_cap.name=Winter Cap
