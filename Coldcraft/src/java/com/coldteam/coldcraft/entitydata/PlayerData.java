@@ -203,14 +203,14 @@ public class PlayerData implements IExtendedEntityProperties{
 		if(this.isServerSide()){
 			if(this.armorTemp < 5.0 && this.wasArmorCalled){//If coat was called but hasn't reached the max temperature
 				this.setArmorTemp(this.armorTemp + 0.0051);
-				this.tickChange += 0.0051;//Increase temperature
+				this.tickChange += 0.004;//Increase temperature
 			}
 			else if(this.armorTemp >= 6.0 && this.wasArmorCalled){//If coat was called but has reached the max temperature
 				this.setArmorTemp(5.0);//Set 5
 			}
 			else if(this.armorTemp > 0.0 && !this.wasArmorCalled){//If coat wasn't called but sends temperature
 				this.setArmorTemp(this.armorTemp - 0.0051);
-				this.tickChange -= 0.0051;//Reduce temperature
+				this.tickChange -= 0.004;//Reduce temperature
 			}
 			else if(this.armorTemp <= 0.0 && !this.wasArmorCalled){//If coat wasn't called and doesn't sends temperature
 				this.setArmorTemp(0.0);//Set 0
