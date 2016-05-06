@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class Main {
 
     public static final String MODID = "coldcraft";
-    public static final String MODNAME = "Coldcraft Survival Mod";
-    public static final String VERSION = "0.1.0";
+    public static final String MODNAME = "ColdcraftSurvivalMod";
+    public static final String VERSION = "v.1.0.0-mc1.8";
 
     @Instance
     public static Main instance = new Main();
