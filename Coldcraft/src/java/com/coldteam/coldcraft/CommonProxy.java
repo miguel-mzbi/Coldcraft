@@ -24,12 +24,14 @@ import net.minecraftforge.fml.relauncher.Side;
 
 //Methods and constructors needed by both the server and client
 public class CommonProxy {
+	
 	//Basic first things to load. 
 	public void preInit(FMLPreInitializationEvent e){
 		ModItems.createItems(); //Items creation
 	    ModBlocks.createBlocks(); //Blocks creation
 	    ModTileEntities.init(); //Tile entities (of blocks) creation
 	}
+	
 	//Other things to load
 	public void init(FMLInitializationEvent e){
 	    ModCrafting.initCrafting(); //Crafting recipes creation
@@ -44,8 +46,8 @@ public class CommonProxy {
 		//Event bus
 		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent()); //Load update per tick event
 		MinecraftForge.EVENT_BUS.register(new EventHandlerCommon()); //Load other events
-		
 	}
+	
 	//Relation between mods loading
 	public void postInit(FMLPostInitializationEvent e){	
 	}

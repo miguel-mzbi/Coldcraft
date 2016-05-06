@@ -24,6 +24,7 @@ public class BasicBlock extends BlockContainer {
 	public TileEntity createNewTileEntity(World worldIn, int meta) {
 		return new ModTileEntity();
 	}
+    
     //Rendering type statement
 	@Override
 	public int getRenderType() {
