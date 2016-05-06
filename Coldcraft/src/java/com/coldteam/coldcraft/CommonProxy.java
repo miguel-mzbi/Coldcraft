@@ -6,6 +6,7 @@ import com.coldteam.coldcraft.event.EventHandlerCommon;
 import com.coldteam.coldcraft.event.LivingUpdateEvent;
 import com.coldteam.coldcraft.items.ModItems;
 import com.coldteam.coldcraft.network.ModGuiHandler;
+import com.coldteam.coldcraft.network.packets.PacketSyncArmorTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncBiomeTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncOnCampTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncPlayerData;
@@ -35,6 +36,7 @@ public class CommonProxy {
 		Main.packetHandler.registerPacket(PacketSyncTemperature.class, new PacketSyncTemperature.Handler(), Side.CLIENT);
 		Main.packetHandler.registerPacket(PacketSyncBiomeTemp.class, new PacketSyncBiomeTemp.Handler(), Side.CLIENT);
 		Main.packetHandler.registerPacket(PacketSyncOnCampTemp.class, new PacketSyncOnCampTemp.Handler(), Side.CLIENT);
+		Main.packetHandler.registerPacket(PacketSyncArmorTemp.class, new PacketSyncArmorTemp.Handler(), Side.CLIENT);
 
 	
 		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent());

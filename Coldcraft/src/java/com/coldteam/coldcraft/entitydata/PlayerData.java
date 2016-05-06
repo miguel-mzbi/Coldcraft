@@ -1,6 +1,7 @@
 package com.coldteam.coldcraft.entitydata;
 
 import com.coldteam.coldcraft.Main;
+import com.coldteam.coldcraft.network.packets.PacketSyncArmorTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncBiomeTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncOnCampTemp;
 import com.coldteam.coldcraft.network.packets.PacketSyncPlayerData;
@@ -31,6 +32,8 @@ public class PlayerData implements IExtendedEntityProperties{
 	private BiomeGenBase biome;
 	private float biomeTemp;
 	private int previousType;
+	private double armorTemp;
+	private boolean wasArmorCalled;
 	
 
 	// CONSTRUCTOR, GETTER, REGISTER ==========================================
@@ -42,6 +45,8 @@ public class PlayerData implements IExtendedEntityProperties{
 		this.wasCampCalled = false;
 		this.onCampTemp = 0.0;
 		this.biomeTemp = 0;
+		this.armorTemp = 0.0;
+		this.wasArmorCalled = false;
 	}
 
 	public static PlayerData get(EntityPlayer player) {
@@ -64,6 +69,7 @@ public class PlayerData implements IExtendedEntityProperties{
 		nbt.setDouble("generalTemp", this.getGeneralTemp());
 		nbt.setDouble("onCampTemp", this.getOnCampTemp());
 		nbt.setFloat("biomeTemp", this.getBiomeTemp());
+		nbt.setDouble("armorTemp", this.getArmorTemp());
 
 	}
 
@@ -85,6 +91,9 @@ public class PlayerData implements IExtendedEntityProperties{
 		}
 		if (nbt.hasKey("biomeTemp")){
 			this.setBiomeTemp(nbt.getFloat("biomeTemp"));
+		}
+		if (nbt.hasKey("armorTemp")){
+			this.setArmorTemp(nbt.getDouble("armorTemp"));
 		}
 	}
 
@@ -173,25 +182,44 @@ public class PlayerData implements IExtendedEntityProperties{
 	public void campStuff(){
 		if(this.isServerSide()){
 			if(!this.wasCampCalled && this.onCampTemp > 0.0){
-				System.out.println("The camp is being turned off");
 				this.setOnCampTemp(this.onCampTemp - 0.0011);
 				this.tickChange -= 0.0011;
 			}
 			else if (!this.wasCampCalled && this.onCampTemp <= 0){
-				System.out.println("The camp isn't there");
-				this.onCampTemp = 0.0;
+				this.setOnCampTemp(0.0);
 			}
 			else if(this.wasCampCalled && this.onCampTemp < 6.0){
-				System.out.println("With the camp");
 				this.setOnCampTemp(this.onCampTemp + 0.0011);
 				this.tickChange += 0.0011;
 			}
 			else if(this.wasCampCalled && this.onCampTemp >= 6.0){
-				System.out.println("The camp is full");
-				this.onCampTemp = 6.0;
+				this.setOnCampTemp(6.0);
 			}
 			else{
-				System.out.println("Error");
+				System.out.println("Camp error");
+			}
+		}
+	}
+	
+	//Coat Effect
+	public void coatStuff(){
+		if(this.isServerSide()){
+			if(this.armorTemp < 6.0 && this.wasArmorCalled){
+				this.setArmorTemp(this.armorTemp + 0.0051);
+				this.tickChange += 0.0051;
+			}
+			else if(this.armorTemp >= 6.0 && this.wasArmorCalled){
+				this.setArmorTemp(6.0);
+			}
+			else if(this.armorTemp > 0.0 && !this.wasArmorCalled){
+				this.setArmorTemp(this.armorTemp - 0.0051);
+				this.tickChange -= 0.0051;
+			}
+			else if(this.armorTemp <= 0.0 && !this.wasArmorCalled){
+				this.setArmorTemp(0.0);
+			}
+			else{
+				System.out.println("Armor error");
 			}
 		}
 	}
@@ -209,11 +237,13 @@ public class PlayerData implements IExtendedEntityProperties{
 			}
 					
 			this.biomeTemperature();
+			this.coatStuff();
 			this.campStuff();
 			
 			this.setTemperature(this.getTemperature()+this.tickChange);
 			System.out.println("Temp: "+this.temperature+ "-----General: "+this.generalTemp);
 			this.wasCampCalled = false;
+			this.wasArmorCalled = false;
 		}
 	}
 	
@@ -261,6 +291,23 @@ public class PlayerData implements IExtendedEntityProperties{
 	public double getOnCampTemp(){
 		return this.onCampTemp;
 	}
+	
+	public void setArmorTemp(double d){
+		this.armorTemp = d;
+		this.syncArmorTemperature();
+	}
+	
+	public double getArmorTemp(){
+		return this.armorTemp;
+	}	
+	
+	public void setArmor(boolean d){
+		this.wasArmorCalled = d;
+	}
+	
+	public boolean getArmor(){
+		return this.wasArmorCalled;
+	}	
 
 	public void syncTemperature() {
 	    if (this.isServerSide()){
@@ -271,6 +318,12 @@ public class PlayerData implements IExtendedEntityProperties{
 	public void syncOnCampTemperature() {
 	    if (this.isServerSide()){
 	    	Main.packetHandler.sendTo(new PacketSyncOnCampTemp(this.getOnCampTemp()), (EntityPlayerMP) this.player);
+	    }
+	}
+	
+	public void syncArmorTemperature() {
+	    if (this.isServerSide()){
+	    	Main.packetHandler.sendTo(new PacketSyncArmorTemp(this.getArmorTemp()), (EntityPlayerMP) this.player);
 	    }
 	}
 	
