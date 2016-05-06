@@ -12,6 +12,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.BlockPos;
+import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.IExtendedEntityProperties;
@@ -244,6 +245,10 @@ public class PlayerData implements IExtendedEntityProperties{
 			System.out.println("Temp: "+this.temperature+ "-----General: "+this.generalTemp);
 			this.wasCampCalled = false;
 			this.wasArmorCalled = false;
+			
+			if(this.temperature <= 29.0 || this.temperature >= 43.0){
+				this.player.attackEntityFrom(DamageSource.generic, 1);
+			}
 		}
 	}
 	
