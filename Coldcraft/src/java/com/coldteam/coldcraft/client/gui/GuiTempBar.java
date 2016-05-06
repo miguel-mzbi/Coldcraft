@@ -13,7 +13,6 @@ public class GuiTempBar extends GuiScreen {
 	private String temp;
 	private GuiButton a;
 	private EntityPlayer entityPlayer;
-	private String generalTemp;
 	private String biomeTemp;
 	
 	public GuiTempBar(EntityPlayer p) {
@@ -40,8 +39,7 @@ public class GuiTempBar extends GuiScreen {
 	@Override
 	public void updateScreen() {
 		//PlayerData.get(this.entityPlayer).requestSyncAll();
-		temp = "Temperature considering camp: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getTemperature());
-		generalTemp = "Current temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getGeneralTemp());
+		temp = "Temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getTemperature());
 		biomeTemp = "Current biome temperature: "+String.format("%.2f",PlayerData.get(this.entityPlayer).getBiomeTemp());
 		super.updateScreen();
 	}
@@ -49,9 +47,8 @@ public class GuiTempBar extends GuiScreen {
 	@Override
 	public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 		this.drawDefaultBackground();
-		this.fontRendererObj.drawString(temp, width / 2 - 80, 50, 0xFFFFFF);
-		this.fontRendererObj.drawString(generalTemp, width / 2 - 80, 70, 0xFFFFFF);
-		this.fontRendererObj.drawString(biomeTemp, width / 2 - 80, 90, 0xFFFFFF);
+		this.fontRendererObj.drawString(temp, width / 2 - 90, 50, 0xFFFFFF);
+		this.fontRendererObj.drawString(biomeTemp, width / 2 - 90, 70, 0xFFFFFF);
 		super.drawScreen(mouseX, mouseY, partialTicks);
 	}
 	
