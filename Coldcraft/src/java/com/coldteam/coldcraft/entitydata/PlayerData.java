@@ -166,7 +166,7 @@ public class PlayerData implements IExtendedEntityProperties{
 					System.out.println("Hot, temperature reached");
 				}
 				else if(this.generalTemp < objectiveTemp){
-					this.tickChange += 0.005;//Increase
+					this.tickChange += 0.003;//Increase
 					System.out.println("Hot");
 				}
 				else{
