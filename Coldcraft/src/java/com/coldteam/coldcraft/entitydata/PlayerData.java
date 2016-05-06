@@ -104,7 +104,7 @@ public class PlayerData implements IExtendedEntityProperties{
 		if(this.isServerSide()){
 			double objectiveTemp;//The temperature objective of the biome
 			//Cold biomes
-			if(this.biomeTemp < 0.5){
+			if(this.biomeTemp < 0.4){
 				objectiveTemp = 29.0;
 				if(this.generalTemp <= objectiveTemp){ //If temperature is already reached
 					this.tickChange += 29.0 - this.generalTemp;
@@ -128,7 +128,7 @@ public class PlayerData implements IExtendedEntityProperties{
 				}
 			}
 			//Warm biomes
-			else if(0.5 <= this.biomeTemp && this.biomeTemp <= 1.2){
+			else if(0.4 <= this.biomeTemp && this.biomeTemp <= 1.2){
 				objectiveTemp = 37.0;//The temperature objective of the biome
 				if(this.generalTemp < objectiveTemp){//If the player comes from a cold biome
 					System.out.println("From cold");
