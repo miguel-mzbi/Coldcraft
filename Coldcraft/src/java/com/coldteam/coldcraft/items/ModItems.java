@@ -10,11 +10,13 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModItems {
+	
+	public static Item termometer;
 
 	public static void createItems() {
 		
 		//Open GUI
-		GameRegistry.registerItem(new Item() {
+		GameRegistry.registerItem(termometer = new Item() {
 		    @Override
 		    public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn) {
 		        if (worldIn.isRemote) {
