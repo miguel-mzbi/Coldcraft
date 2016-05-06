@@ -1,6 +1,6 @@
 {
     "parent":"coldcraft:item/standard_item",
     "textures": {
-        "layer0":"coldcraft:items/termometer"
+        "layer0":"coldcraft:items/thermometer"
     }
 }

@@ -13,7 +13,7 @@ public final class ItemRenderRegister {
 	public static String modid = Main.MODID;
 	
 	public static void registerItemRenderer() {
-	    reg(ModItems.termometer);
+	    reg(ModItems.thermometer);
 	    reg(ModItems.coatBoots);
 	    reg(ModItems.winterCap);
 	    reg(ModItems.coatCoat);

@@ -8,6 +8,7 @@ import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.player.EntityPlayer;
 
+//Create GUI to for the thermometer item
 public class GuiTempBar extends GuiScreen {
 
 	private String temp;

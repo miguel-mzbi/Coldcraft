@@ -1,7 +1,7 @@
 <en_US.lang - English localization file for the mod "Coldcraft">
 
 tile.camp_fire.name=Campfire
-item.termometer.name=Termometer
+item.thermometer.name=Thermometer
 item.coat_coat.name=Winter Coat
 item.coat_boots.name=Winter Boots
 item.winter_cap.name=Winter Cap

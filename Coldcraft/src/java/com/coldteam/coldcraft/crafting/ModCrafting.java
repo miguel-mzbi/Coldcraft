@@ -14,6 +14,6 @@ public class ModCrafting {
 		GameRegistry.addRecipe(new ItemStack(ModItems.coatBoots), "I I", "# #", '#', Items.leather, 'I', Blocks.wool);
 		GameRegistry.addRecipe(new ItemStack(ModItems.coatCoat), "# #", "III", "III", '#', Items.leather, 'I', Blocks.wool);
 		GameRegistry.addRecipe(new ItemStack(ModItems.winterCap), "III", "I I", 'I', Blocks.wool);
-		GameRegistry.addRecipe(new ItemStack(ModItems.termometer), "#", "I", '#', Blocks.glass, 'I', Items.iron_ingot);
+		GameRegistry.addRecipe(new ItemStack(ModItems.thermometer), "#", "I", '#', Blocks.glass, 'I', Items.iron_ingot);
 	}
 }

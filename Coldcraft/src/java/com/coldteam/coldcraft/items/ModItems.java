@@ -14,7 +14,7 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public final class ModItems {
 	
-	public static Item termometer;
+	public static Item thermometer;
 	public static ArmorMaterial Coat = EnumHelper.addArmorMaterial("Coat", "coldcraft:coat", 6, new int[]{1, 3, 2, 1}, 0);
 	public static ItemModCoat coatBoots;
 	public static ItemModCoat coatCoat;
@@ -23,7 +23,7 @@ public final class ModItems {
 	public static void createItems() {
 		
 		//Open GUI
-		GameRegistry.registerItem(termometer = new Item() {
+		GameRegistry.registerItem(thermometer = new Item() {
 		    @Override
 		    public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn) {
 		        if (worldIn.isRemote) {
@@ -31,7 +31,7 @@ public final class ModItems {
 		        }
 		        return itemStackIn;
 		    }
-		}.setUnlocalizedName("termometer").setCreativeTab(CreativeTabs.tabMisc), "termometer");
+		}.setUnlocalizedName("thermometer").setCreativeTab(CreativeTabs.tabMisc), "thermometer");
 		
 		GameRegistry.registerItem(winterCap = new ItemModCoat("winter_cap", Coat, 1, 0), "winter_cap");
 		GameRegistry.registerItem(coatCoat = new ItemModCoat("coat_coat", Coat, 1, 1), "coat_coat");

@@ -22,29 +22,31 @@ import net.minecraftforge.fml.common.network.IGuiHandler;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 
+//Methods and constructors needed by both the server and client
 public class CommonProxy {
+	//Basic first things to load. 
 	public void preInit(FMLPreInitializationEvent e){
-		ModItems.createItems();
-	    ModBlocks.createBlocks();
-	    ModTileEntities.init();
+		ModItems.createItems(); //Items creation
+	    ModBlocks.createBlocks(); //Blocks creation
+	    ModTileEntities.init(); //Tile entities (of blocks) creation
 	}
+	//Other things to load
 	public void init(FMLInitializationEvent e){
-	    ModCrafting.initCrafting();
-	    
-	    Main.packetHandler = MinersbasicAPI.createPacketHandler(Main.MODID);
-	    Main.packetHandler.registerBidiPacket(PacketSyncPlayerData.class, new PacketSyncPlayerData.Handler());
-		Main.packetHandler.registerPacket(PacketSyncTemperature.class, new PacketSyncTemperature.Handler(), Side.CLIENT);
-		Main.packetHandler.registerPacket(PacketSyncBiomeTemp.class, new PacketSyncBiomeTemp.Handler(), Side.CLIENT);
-		Main.packetHandler.registerPacket(PacketSyncOnCampTemp.class, new PacketSyncOnCampTemp.Handler(), Side.CLIENT);
-		Main.packetHandler.registerPacket(PacketSyncArmorTemp.class, new PacketSyncArmorTemp.Handler(), Side.CLIENT);
-
-	
-		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent());
-		MinecraftForge.EVENT_BUS.register(new EventHandlerCommon());
-	    NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, (IGuiHandler) new ModGuiHandler());
+	    ModCrafting.initCrafting(); //Crafting recipes creation
+	    NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, (IGuiHandler) new ModGuiHandler()); //GUI creation
+	    //Packet handlers
+	    Main.packetHandler = MinersbasicAPI.createPacketHandler(Main.MODID); //Load Miner's Basic Packet Handler utilities 
+	    Main.packetHandler.registerBidiPacket(PacketSyncPlayerData.class, new PacketSyncPlayerData.Handler()); //Load all player data sync
+		Main.packetHandler.registerPacket(PacketSyncTemperature.class, new PacketSyncTemperature.Handler(), Side.CLIENT); //Load temperature sync
+		Main.packetHandler.registerPacket(PacketSyncBiomeTemp.class, new PacketSyncBiomeTemp.Handler(), Side.CLIENT); //Load biome temperature sync
+		Main.packetHandler.registerPacket(PacketSyncOnCampTemp.class, new PacketSyncOnCampTemp.Handler(), Side.CLIENT); //Load campfire temperature sync
+		Main.packetHandler.registerPacket(PacketSyncArmorTemp.class, new PacketSyncArmorTemp.Handler(), Side.CLIENT); //Load armor temperature sync
+		//Event bus
+		MinecraftForge.EVENT_BUS.register(new LivingUpdateEvent()); //Load update per tick event
+		MinecraftForge.EVENT_BUS.register(new EventHandlerCommon()); //Load other events
 		
 	}
-	public void postInit(FMLPostInitializationEvent e){
-		
+	//Relation between mods loading
+	public void postInit(FMLPostInitializationEvent e){	
 	}
 }
